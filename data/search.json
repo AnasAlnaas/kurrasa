@@ -1,0 +1,1114 @@
+{
+  "id": "search",
+  "rounds": [
+    {
+      "d": 1,
+      "size": 8,
+      "allowDiagonal": false,
+      "theme": {
+        "en": "Around the house",
+        "ar": "فِي البَيْت"
+      },
+      "words": [
+        {
+          "ar": "بَاب",
+          "tr": "bāb",
+          "en": "door"
+        },
+        {
+          "ar": "بَيْت",
+          "tr": "bayt",
+          "en": "house"
+        },
+        {
+          "ar": "سَرِير",
+          "tr": "sarīr",
+          "en": "bed"
+        },
+        {
+          "ar": "كُرْسِيّ",
+          "tr": "kursī",
+          "en": "chair"
+        },
+        {
+          "ar": "مِفْتَاح",
+          "tr": "miftāḥ",
+          "en": "key"
+        },
+        {
+          "ar": "نَافِذَة",
+          "tr": "nāfidha",
+          "en": "window"
+        }
+      ]
+    },
+    {
+      "d": 1,
+      "size": 8,
+      "allowDiagonal": false,
+      "theme": {
+        "en": "Food and drink",
+        "ar": "طَعَام وَشَرَاب"
+      },
+      "words": [
+        {
+          "ar": "خُبْز",
+          "tr": "khubz",
+          "en": "bread"
+        },
+        {
+          "ar": "لَحْم",
+          "tr": "laḥm",
+          "en": "meat"
+        },
+        {
+          "ar": "جُبْن",
+          "tr": "jubn",
+          "en": "cheese"
+        },
+        {
+          "ar": "حَلِيب",
+          "tr": "ḥalīb",
+          "en": "milk"
+        },
+        {
+          "ar": "تُفَّاح",
+          "tr": "tuffāḥ",
+          "en": "apple"
+        },
+        {
+          "ar": "عَسَل",
+          "tr": "ʿasal",
+          "en": "honey"
+        }
+      ]
+    },
+    {
+      "d": 1,
+      "size": 8,
+      "allowDiagonal": false,
+      "theme": {
+        "en": "Colours",
+        "ar": "الأَلْوَان"
+      },
+      "words": [
+        {
+          "ar": "أَحْمَر",
+          "tr": "aḥmar",
+          "en": "red"
+        },
+        {
+          "ar": "أَزْرَق",
+          "tr": "azraq",
+          "en": "blue"
+        },
+        {
+          "ar": "أَخْضَر",
+          "tr": "akhḍar",
+          "en": "green"
+        },
+        {
+          "ar": "أَصْفَر",
+          "tr": "aṣfar",
+          "en": "yellow"
+        },
+        {
+          "ar": "أَسْوَد",
+          "tr": "aswad",
+          "en": "black"
+        },
+        {
+          "ar": "أَبْيَض",
+          "tr": "abyaḍ",
+          "en": "white"
+        }
+      ]
+    },
+    {
+      "d": 2,
+      "size": 10,
+      "allowDiagonal": true,
+      "theme": {
+        "en": "In the classroom",
+        "ar": "فِي الفَصْل"
+      },
+      "words": [
+        {
+          "ar": "قَلَم",
+          "tr": "qalam",
+          "en": "pen"
+        },
+        {
+          "ar": "دَرْس",
+          "tr": "dars",
+          "en": "lesson"
+        },
+        {
+          "ar": "كِتَاب",
+          "tr": "kitāb",
+          "en": "book"
+        },
+        {
+          "ar": "دَفْتَر",
+          "tr": "daftar",
+          "en": "notebook"
+        },
+        {
+          "ar": "طَالِب",
+          "tr": "ṭālib",
+          "en": "student"
+        },
+        {
+          "ar": "مُعَلِّم",
+          "tr": "muʿallim",
+          "en": "teacher"
+        },
+        {
+          "ar": "سَبُّورَة",
+          "tr": "sabbūra",
+          "en": "blackboard"
+        },
+        {
+          "ar": "مَدْرَسَة",
+          "tr": "madrasa",
+          "en": "school"
+        }
+      ]
+    },
+    {
+      "d": 2,
+      "size": 10,
+      "allowDiagonal": true,
+      "theme": {
+        "en": "The family",
+        "ar": "الأُسْرَة"
+      },
+      "words": [
+        {
+          "ar": "جَدَّة",
+          "tr": "jadda",
+          "en": "grandmother"
+        },
+        {
+          "ar": "عَمَّة",
+          "tr": "ʿamma",
+          "en": "paternal aunt"
+        },
+        {
+          "ar": "خَالَة",
+          "tr": "khāla",
+          "en": "maternal aunt"
+        },
+        {
+          "ar": "أُخْت",
+          "tr": "ukht",
+          "en": "sister"
+        },
+        {
+          "ar": "بِنْت",
+          "tr": "bint",
+          "en": "daughter"
+        },
+        {
+          "ar": "حَفِيد",
+          "tr": "ḥafīd",
+          "en": "grandson"
+        },
+        {
+          "ar": "وَالِدَة",
+          "tr": "wālida",
+          "en": "mother"
+        },
+        {
+          "ar": "زَوْجَة",
+          "tr": "zawja",
+          "en": "wife"
+        }
+      ]
+    },
+    {
+      "d": 2,
+      "size": 10,
+      "allowDiagonal": true,
+      "theme": {
+        "en": "Days of the week",
+        "ar": "أَيَّام الأُسْبُوع"
+      },
+      "words": [
+        {
+          "ar": "السَّبْت",
+          "tr": "as-sabt",
+          "en": "Saturday"
+        },
+        {
+          "ar": "الأَحَد",
+          "tr": "al-aḥad",
+          "en": "Sunday"
+        },
+        {
+          "ar": "الاِثْنَيْن",
+          "tr": "al-ithnayn",
+          "en": "Monday"
+        },
+        {
+          "ar": "الخَمِيس",
+          "tr": "al-khamīs",
+          "en": "Thursday"
+        },
+        {
+          "ar": "الجُمُعَة",
+          "tr": "al-jumuʿa",
+          "en": "Friday"
+        }
+      ]
+    },
+    {
+      "d": 3,
+      "size": 12,
+      "allowDiagonal": true,
+      "theme": {
+        "en": "Travelling",
+        "ar": "السَّفَر"
+      },
+      "words": [
+        {
+          "ar": "مَطَار",
+          "tr": "maṭār",
+          "en": "airport"
+        },
+        {
+          "ar": "قِطَار",
+          "tr": "qiṭār",
+          "en": "train"
+        },
+        {
+          "ar": "جَوَاز",
+          "tr": "jawāz",
+          "en": "passport"
+        },
+        {
+          "ar": "فُنْدُق",
+          "tr": "funduq",
+          "en": "hotel"
+        },
+        {
+          "ar": "سَيَّارَة",
+          "tr": "sayyāra",
+          "en": "car"
+        },
+        {
+          "ar": "سَفِينَة",
+          "tr": "safīna",
+          "en": "ship"
+        },
+        {
+          "ar": "حَقِيبَة",
+          "tr": "ḥaqība",
+          "en": "suitcase"
+        },
+        {
+          "ar": "تَذْكِرَة",
+          "tr": "tadhkira",
+          "en": "ticket"
+        }
+      ]
+    },
+    {
+      "d": 3,
+      "size": 12,
+      "allowDiagonal": true,
+      "theme": {
+        "en": "The body",
+        "ar": "الجِسْم"
+      },
+      "words": [
+        {
+          "ar": "عَيْن",
+          "tr": "ʿayn",
+          "en": "eye"
+        },
+        {
+          "ar": "أُذُن",
+          "tr": "udhun",
+          "en": "ear"
+        },
+        {
+          "ar": "أَنْف",
+          "tr": "anf",
+          "en": "nose"
+        },
+        {
+          "ar": "قَلْب",
+          "tr": "qalb",
+          "en": "heart"
+        },
+        {
+          "ar": "ظَهْر",
+          "tr": "ẓahr",
+          "en": "back"
+        },
+        {
+          "ar": "بَطْن",
+          "tr": "baṭn",
+          "en": "stomach"
+        },
+        {
+          "ar": "كَتِف",
+          "tr": "katif",
+          "en": "shoulder"
+        },
+        {
+          "ar": "إِصْبَع",
+          "tr": "iṣbaʿ",
+          "en": "finger"
+        },
+        {
+          "ar": "رُكْبَة",
+          "tr": "rukba",
+          "en": "knee"
+        }
+      ]
+    },
+    {
+      "d": 3,
+      "size": 12,
+      "allowDiagonal": true,
+      "theme": {
+        "en": "The natural world",
+        "ar": "الطَّبِيعَة"
+      },
+      "words": [
+        {
+          "ar": "جَبَل",
+          "tr": "jabal",
+          "en": "mountain"
+        },
+        {
+          "ar": "نَهْر",
+          "tr": "nahr",
+          "en": "river"
+        },
+        {
+          "ar": "بَحْر",
+          "tr": "baḥr",
+          "en": "sea"
+        },
+        {
+          "ar": "شَمْس",
+          "tr": "shams",
+          "en": "sun"
+        },
+        {
+          "ar": "قَمَر",
+          "tr": "qamar",
+          "en": "moon"
+        },
+        {
+          "ar": "نَجْم",
+          "tr": "najm",
+          "en": "star"
+        },
+        {
+          "ar": "مَطَر",
+          "tr": "maṭar",
+          "en": "rain"
+        },
+        {
+          "ar": "شَجَرَة",
+          "tr": "shajara",
+          "en": "tree"
+        }
+      ]
+    },
+    {
+      "d": 2,
+      "size": 9,
+      "theme": {
+        "en": "The family",
+        "ar": "الأُسْرَة"
+      },
+      "allowDiagonal": true,
+      "words": [
+        {
+          "ar": "بِنْت",
+          "tr": "bint",
+          "en": "girl, daughter"
+        },
+        {
+          "ar": "خَال",
+          "tr": "khāl",
+          "en": "maternal uncle"
+        },
+        {
+          "ar": "اِمْرَأَة",
+          "tr": "imraʾa",
+          "en": "woman"
+        },
+        {
+          "ar": "أُخْت",
+          "tr": "ukht",
+          "en": "sister"
+        },
+        {
+          "ar": "وَلَد",
+          "tr": "walad",
+          "en": "boy"
+        },
+        {
+          "ar": "أُسْرَة",
+          "tr": "usra",
+          "en": "family"
+        },
+        {
+          "ar": "عَمَّة",
+          "tr": "ʿamma",
+          "en": "paternal aunt"
+        }
+      ]
+    },
+    {
+      "d": 1,
+      "size": 9,
+      "theme": {
+        "en": "The body",
+        "ar": "الجِسْم"
+      },
+      "allowDiagonal": true,
+      "words": [
+        {
+          "ar": "أُذُن",
+          "tr": "udhun",
+          "en": "ear"
+        },
+        {
+          "ar": "بَطْن",
+          "tr": "baṭn",
+          "en": "stomach"
+        },
+        {
+          "ar": "شَعْر",
+          "tr": "shaʿr",
+          "en": "hair"
+        },
+        {
+          "ar": "ظَهْر",
+          "tr": "ẓahr",
+          "en": "back"
+        },
+        {
+          "ar": "إِصْبَع",
+          "tr": "iṣbaʿ",
+          "en": "finger"
+        },
+        {
+          "ar": "رِجْل",
+          "tr": "rijl",
+          "en": "leg, foot"
+        },
+        {
+          "ar": "كَتِف",
+          "tr": "katif",
+          "en": "shoulder"
+        }
+      ]
+    },
+    {
+      "d": 1,
+      "size": 9,
+      "theme": {
+        "en": "Food and drink",
+        "ar": "الطَّعَام وَالشَّرَاب"
+      },
+      "allowDiagonal": true,
+      "words": [
+        {
+          "ar": "سُوق",
+          "tr": "sūq",
+          "en": "market"
+        },
+        {
+          "ar": "عِنَب",
+          "tr": "ʿinab",
+          "en": "grapes"
+        },
+        {
+          "ar": "تَمْر",
+          "tr": "tamr",
+          "en": "dates"
+        },
+        {
+          "ar": "عَسَل",
+          "tr": "ʿasal",
+          "en": "honey"
+        },
+        {
+          "ar": "دَجَاج",
+          "tr": "dajāj",
+          "en": "chicken"
+        },
+        {
+          "ar": "طَعَام",
+          "tr": "ṭaʿām",
+          "en": "food"
+        },
+        {
+          "ar": "شَاي",
+          "tr": "shāy",
+          "en": "tea"
+        }
+      ]
+    },
+    {
+      "d": 2,
+      "size": 9,
+      "theme": {
+        "en": "Around the house",
+        "ar": "فِي البَيْت"
+      },
+      "allowDiagonal": true,
+      "words": [
+        {
+          "ar": "طَاوِلَة",
+          "tr": "ṭāwila",
+          "en": "table"
+        },
+        {
+          "ar": "حَدِيقَة",
+          "tr": "ḥadīqa",
+          "en": "garden"
+        },
+        {
+          "ar": "نَافِذَة",
+          "tr": "nāfidha",
+          "en": "window"
+        },
+        {
+          "ar": "سَرِير",
+          "tr": "sarīr",
+          "en": "bed"
+        },
+        {
+          "ar": "بَيْت",
+          "tr": "bayt",
+          "en": "house"
+        },
+        {
+          "ar": "كُرْسِيّ",
+          "tr": "kursī",
+          "en": "chair"
+        },
+        {
+          "ar": "سُلَّم",
+          "tr": "sullam",
+          "en": "stairs, ladder"
+        }
+      ]
+    },
+    {
+      "d": 2,
+      "size": 9,
+      "theme": {
+        "en": "Around town",
+        "ar": "فِي المَدِينَة"
+      },
+      "allowDiagonal": true,
+      "words": [
+        {
+          "ar": "مَسْجِد",
+          "tr": "masjid",
+          "en": "mosque"
+        },
+        {
+          "ar": "مَدْرَسَة",
+          "tr": "madrasa",
+          "en": "school"
+        },
+        {
+          "ar": "مَدِينَة",
+          "tr": "madīna",
+          "en": "city"
+        },
+        {
+          "ar": "بَنْك",
+          "tr": "bank",
+          "en": "bank"
+        },
+        {
+          "ar": "فُنْدُق",
+          "tr": "funduq",
+          "en": "hotel"
+        },
+        {
+          "ar": "مَكْتَبَة",
+          "tr": "maktaba",
+          "en": "library"
+        },
+        {
+          "ar": "دُكَّان",
+          "tr": "dukkān",
+          "en": "shop"
+        }
+      ]
+    },
+    {
+      "d": 1,
+      "size": 9,
+      "theme": {
+        "en": "At school",
+        "ar": "فِي المَدْرَسَة"
+      },
+      "allowDiagonal": true,
+      "words": [
+        {
+          "ar": "كَلِمَة",
+          "tr": "kalima",
+          "en": "word"
+        },
+        {
+          "ar": "جَوَاب",
+          "tr": "jawāb",
+          "en": "answer"
+        },
+        {
+          "ar": "حَرْف",
+          "tr": "ḥarf",
+          "en": "letter"
+        },
+        {
+          "ar": "قَلَم",
+          "tr": "qalam",
+          "en": "pen"
+        },
+        {
+          "ar": "عِلْم",
+          "tr": "ʿilm",
+          "en": "knowledge, science"
+        },
+        {
+          "ar": "رَقَم",
+          "tr": "raqam",
+          "en": "number"
+        },
+        {
+          "ar": "طَالِب",
+          "tr": "ṭālib",
+          "en": "student"
+        }
+      ]
+    },
+    {
+      "d": 1,
+      "size": 9,
+      "theme": {
+        "en": "Work and trades",
+        "ar": "المِهَن"
+      },
+      "allowDiagonal": true,
+      "words": [
+        {
+          "ar": "تَاجِر",
+          "tr": "tājir",
+          "en": "merchant"
+        },
+        {
+          "ar": "مُدِير",
+          "tr": "mudīr",
+          "en": "manager"
+        },
+        {
+          "ar": "مَال",
+          "tr": "māl",
+          "en": "money"
+        },
+        {
+          "ar": "طَبِيب",
+          "tr": "ṭabīb",
+          "en": "doctor"
+        },
+        {
+          "ar": "كَاتِب",
+          "tr": "kātib",
+          "en": "writer"
+        },
+        {
+          "ar": "شَرِكَة",
+          "tr": "sharika",
+          "en": "company"
+        },
+        {
+          "ar": "عَمَل",
+          "tr": "ʿamal",
+          "en": "work"
+        }
+      ]
+    },
+    {
+      "d": 1,
+      "size": 9,
+      "theme": {
+        "en": "The natural world",
+        "ar": "الطَّبِيعَة"
+      },
+      "allowDiagonal": true,
+      "words": [
+        {
+          "ar": "نَهْر",
+          "tr": "nahr",
+          "en": "river"
+        },
+        {
+          "ar": "حَجَر",
+          "tr": "ḥajar",
+          "en": "stone"
+        },
+        {
+          "ar": "جَبَل",
+          "tr": "jabal",
+          "en": "mountain"
+        },
+        {
+          "ar": "وَرْدَة",
+          "tr": "warda",
+          "en": "flower, rose"
+        },
+        {
+          "ar": "شَمْس",
+          "tr": "shams",
+          "en": "sun"
+        },
+        {
+          "ar": "رِيح",
+          "tr": "rīḥ",
+          "en": "wind"
+        },
+        {
+          "ar": "نَار",
+          "tr": "nār",
+          "en": "fire"
+        }
+      ]
+    },
+    {
+      "d": 1,
+      "size": 9,
+      "theme": {
+        "en": "Animals",
+        "ar": "الحَيَوَانَات"
+      },
+      "allowDiagonal": true,
+      "words": [
+        {
+          "ar": "خَرُوف",
+          "tr": "kharūf",
+          "en": "sheep"
+        },
+        {
+          "ar": "طَيْر",
+          "tr": "ṭayr",
+          "en": "bird"
+        },
+        {
+          "ar": "أَسَد",
+          "tr": "asad",
+          "en": "lion"
+        },
+        {
+          "ar": "حِمَار",
+          "tr": "ḥimār",
+          "en": "donkey"
+        },
+        {
+          "ar": "نَمْلَة",
+          "tr": "namla",
+          "en": "ant"
+        },
+        {
+          "ar": "حِصَان",
+          "tr": "ḥiṣān",
+          "en": "horse"
+        },
+        {
+          "ar": "كَلْب",
+          "tr": "kalb",
+          "en": "dog"
+        }
+      ]
+    },
+    {
+      "d": 2,
+      "size": 9,
+      "theme": {
+        "en": "Clothes",
+        "ar": "المَلَابِس"
+      },
+      "allowDiagonal": true,
+      "words": [
+        {
+          "ar": "جَوْرَب",
+          "tr": "jawrab",
+          "en": "sock"
+        },
+        {
+          "ar": "مِعْطَف",
+          "tr": "miʿṭaf",
+          "en": "coat"
+        },
+        {
+          "ar": "حِزَام",
+          "tr": "ḥizām",
+          "en": "belt"
+        },
+        {
+          "ar": "فُسْتَان",
+          "tr": "fustān",
+          "en": "dress"
+        },
+        {
+          "ar": "نَظَّارَة",
+          "tr": "naẓẓāra",
+          "en": "glasses"
+        },
+        {
+          "ar": "ثَوْب",
+          "tr": "thawb",
+          "en": "garment"
+        },
+        {
+          "ar": "قَمِيص",
+          "tr": "qamīṣ",
+          "en": "shirt"
+        }
+      ]
+    },
+    {
+      "d": 2,
+      "size": 9,
+      "theme": {
+        "en": "Telling the time",
+        "ar": "الوَقْت"
+      },
+      "allowDiagonal": true,
+      "words": [
+        {
+          "ar": "ظُهْر",
+          "tr": "ẓuhr",
+          "en": "noon"
+        },
+        {
+          "ar": "صَبَاح",
+          "tr": "ṣabāḥ",
+          "en": "morning"
+        },
+        {
+          "ar": "أَمْس",
+          "tr": "ams",
+          "en": "yesterday"
+        },
+        {
+          "ar": "يَوْم",
+          "tr": "yawm",
+          "en": "day"
+        },
+        {
+          "ar": "سَاعَة",
+          "tr": "sāʿa",
+          "en": "hour, clock"
+        },
+        {
+          "ar": "دَقِيقَة",
+          "tr": "daqīqa",
+          "en": "minute"
+        },
+        {
+          "ar": "فَجْر",
+          "tr": "fajr",
+          "en": "dawn"
+        }
+      ]
+    },
+    {
+      "d": 2,
+      "size": 9,
+      "theme": {
+        "en": "Getting around",
+        "ar": "التَّنَقُّل"
+      },
+      "allowDiagonal": true,
+      "words": [
+        {
+          "ar": "سَيَّارَة",
+          "tr": "sayyāra",
+          "en": "car"
+        },
+        {
+          "ar": "سَفَر",
+          "tr": "safar",
+          "en": "travel"
+        },
+        {
+          "ar": "رِحْلَة",
+          "tr": "riḥla",
+          "en": "trip"
+        },
+        {
+          "ar": "قِطَار",
+          "tr": "qiṭār",
+          "en": "train"
+        },
+        {
+          "ar": "سَفِينَة",
+          "tr": "safīna",
+          "en": "ship"
+        },
+        {
+          "ar": "تَذْكِرَة",
+          "tr": "tadhkira",
+          "en": "ticket"
+        },
+        {
+          "ar": "حَقِيبَة",
+          "tr": "ḥaqība",
+          "en": "bag, suitcase"
+        }
+      ]
+    },
+    {
+      "d": 1,
+      "size": 9,
+      "theme": {
+        "en": "Describing things",
+        "ar": "الصِّفَات"
+      },
+      "allowDiagonal": true,
+      "words": [
+        {
+          "ar": "جَدِيد",
+          "tr": "jadīd",
+          "en": "new"
+        },
+        {
+          "ar": "غَنِيّ",
+          "tr": "ghanī",
+          "en": "rich"
+        },
+        {
+          "ar": "جَمِيل",
+          "tr": "jamīl",
+          "en": "beautiful"
+        },
+        {
+          "ar": "صَعْب",
+          "tr": "ṣaʿb",
+          "en": "difficult"
+        },
+        {
+          "ar": "سَرِيع",
+          "tr": "sarīʿ",
+          "en": "fast"
+        },
+        {
+          "ar": "قَصِير",
+          "tr": "qaṣīr",
+          "en": "short"
+        },
+        {
+          "ar": "سَهْل",
+          "tr": "sahl",
+          "en": "easy"
+        }
+      ]
+    },
+    {
+      "d": 1,
+      "size": 9,
+      "theme": {
+        "en": "Everyday verbs",
+        "ar": "أَفْعَال يَوْمِيَّة"
+      },
+      "allowDiagonal": true,
+      "words": [
+        {
+          "ar": "فَتَحَ",
+          "tr": "fataḥa",
+          "en": "he opened"
+        },
+        {
+          "ar": "شَرِبَ",
+          "tr": "shariba",
+          "en": "he drank"
+        },
+        {
+          "ar": "ذَهَبَ",
+          "tr": "dhahaba",
+          "en": "he went"
+        },
+        {
+          "ar": "دَخَلَ",
+          "tr": "dakhala",
+          "en": "he entered"
+        },
+        {
+          "ar": "وَصَلَ",
+          "tr": "waṣala",
+          "en": "he arrived"
+        },
+        {
+          "ar": "رَجَعَ",
+          "tr": "rajaʿa",
+          "en": "he returned"
+        },
+        {
+          "ar": "دَرَسَ",
+          "tr": "darasa",
+          "en": "he studied"
+        }
+      ]
+    },
+    {
+      "d": 1,
+      "size": 9,
+      "theme": {
+        "en": "Colours",
+        "ar": "الأَلْوَان"
+      },
+      "allowDiagonal": true,
+      "words": [
+        {
+          "ar": "لَوْن",
+          "tr": "lawn",
+          "en": "colour"
+        },
+        {
+          "ar": "أَبْيَض",
+          "tr": "abyaḍ",
+          "en": "white"
+        },
+        {
+          "ar": "بُنِّيّ",
+          "tr": "bunnī",
+          "en": "brown"
+        },
+        {
+          "ar": "أَصْفَر",
+          "tr": "aṣfar",
+          "en": "yellow"
+        },
+        {
+          "ar": "أَسْوَد",
+          "tr": "aswad",
+          "en": "black"
+        },
+        {
+          "ar": "أَحْمَر",
+          "tr": "aḥmar",
+          "en": "red"
+        },
+        {
+          "ar": "أَزْرَق",
+          "tr": "azraq",
+          "en": "blue"
+        }
+      ]
+    }
+  ]
+}

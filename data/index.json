@@ -1,0 +1,66 @@
+{
+  "exercises": [
+    {
+      "id": "letters", "engine": "assemble", "data": "letters", "levels": 3, "status": "ready",
+      "title": { "en": "The Right Letter", "ar": "اِخْتَرْ الحَرْف" },
+      "blurb": { "en": "Spot the missing letter, and tell apart the ones that differ only by their dots.", "ar": "أَكْمِل الحَرْف النَّاقِص، وَمَيِّز بَيْنَ الحُرُوف الَّتِي لَا تَخْتَلِف إِلَّا بِالنَّقْط." },
+      "howto": {
+        "en": "A word is written on the line with one letter missing. Choose the letter that belongs there. The choices are the ones that share a skeleton and differ only in their dots — ب ت ث ن, or ج ح خ, or ص ض. The letters on the buttons stand alone, so they wear their isolated shape; on the line the same letter joins to its neighbours and looks different. That change is the thing worth learning.",
+        "ar": "الكَلِمَة مَكْتُوبَة عَلَى السَّطْر وَقَدْ سَقَطَ مِنْهَا حَرْف، فَاخْتَرْ الحَرْف الَّذِي يَسُدّ مَكَانَه. وَالخِيَارَات حُرُوف تَشْتَرِك فِي الرَّسْم وَلَا تَخْتَلِف إِلَّا بِالنَّقْط: ب ت ث ن، وَج ح خ، وَص ض. الحَرْف عَلَى الزِّرّ مُفْرَد فَيَظْهَر بِشَكْلِه المُنْفَصِل، وَعَلَى السَّطْر يَتَّصِل بِجَارَيْهِ فَيَتَغَيَّر رَسْمُه، وَهَذَا التَّحَوُّل هُوَ المَقْصُود."
+      }
+    },
+    {
+      "id": "build", "engine": "assemble", "data": "build", "levels": 3, "status": "ready",
+      "title": { "en": "Build the Word", "ar": "تَرْكِيب الكَلِمَة" },
+      "blurb": { "en": "Order scrambled letters into a real word, then place the vowel marks on it.", "ar": "رَتِّب الحُرُوف حَتَّى تَسْتَقِيم الكَلِمَة، ثُمَّ اِضْبِطْهَا بِالشَّكْل." },
+      "howto": {
+        "en": "The English meaning is given; build the Arabic for it. Tap letters to set them down on the line, right to left, and tap one already on the line to take it back. Some rounds include a letter that does not belong. Letters on the buttons stand alone; as they land on the line they join up and change shape. When the letters are right, some words then ask for the vowel marks: tap a letter, then tap a mark to put it on. Keys 1–9 place letters, Backspace lifts the last one.",
+        "ar": "المَعْنَى بِالإِنْجِلِيزِيَّة أَمَامَك، وَعَلَيْك أَنْ تَبْنِيَ الكَلِمَة العَرَبِيَّة. اُنْقُر الحُرُوف لِتَضَعَهَا عَلَى السَّطْر مِنْ اليَمِين إِلَى اليَسَار، وَانْقُر حَرْفًا عَلَى السَّطْر لِتَرْفَعَه. وَفِي بَعْض الجَوْلَات حَرْف دَخِيل لَا مَكَانَ لَه. الحَرْف عَلَى الزِّرّ مُنْفَصِل، فَإِذَا نَزَلَ عَلَى السَّطْر اِتَّصَلَ وَتَغَيَّرَ رَسْمُه. فَإِذَا صَحَّتْ الحُرُوف طُلِبَ مِنْك الشَّكْل فِي بَعْض الكَلِمَات: اِلْمِس الحَرْف ثُمَّ الحَرَكَة."
+      }
+    },
+    {
+      "id": "search", "engine": "wordsearch", "data": "search", "levels": 3, "status": "ready",
+      "title": { "en": "Word Search", "ar": "البَحْث عَنْ الكَلِمَات" },
+      "blurb": { "en": "Trace hidden words in a letter grid, a theme at a time.", "ar": "تَتَبَّع الكَلِمَات المُخَبَّأَة فِي شَبَكَة الحُرُوف، مَوْضُوعًا بَعْد مَوْضُوع." },
+      "howto": {
+        "en": "Drag across the grid to trace a word, or tap one end then the other. Words run right-to-left and downward — never backwards, because reading Arabic backwards teaches the wrong habit. The grid shows bare letters in their isolated shapes; the list beside it shows the same words joined and vowelled. Moving between those two is the harder half of reading Arabic, and it is the actual point of this exercise.",
+        "ar": "مُرَّ بِإِصْبَعِك عَلَى الشَّبَكَة لِتَخُطّ الكَلِمَة، أَوْ اُنْقُر طَرَفَيْهَا. الكَلِمَات مِنْ اليَمِين إِلَى اليَسَار وَمِنْ أَعْلَى إِلَى أَسْفَل، وَلَنْ تَجِدَهَا مَقْلُوبَة. فِي الشَّبَكَة حُرُوف مُفْرَدَة مُجَرَّدَة، وَفِي القَائِمَة الكَلِمَات نَفْسُهَا مَوْصُولَة مَشْكُولَة، وَالاِنْتِقَال بَيْنَهُمَا هُوَ لُبّ التَّمْرِين."
+      }
+    },
+    {
+      "id": "opposites", "engine": "match", "data": "opposites", "levels": 3, "status": "ready",
+      "title": { "en": "Same and Opposite", "ar": "المُتَرَادِف وَالضِّدّ" },
+      "blurb": { "en": "Pair a word with its match or its opposite. Singular and plural too.", "ar": "اِقْرِن الكَلِمَة بِمُرَادِفِهَا أَوْ ضِدِّهَا، وَكَذَلِكَ المُفْرَد بِجَمْعِه." },
+      "howto": { "en": "Tap a word in one column, then its partner in the other, and a line is drawn between them. Each board is one relation — opposites, synonyms, or singular and plural — and the instruction says which. Meanings stay hidden until a pair is joined, so the Arabic is what you read.", "ar": "اِلْمِس كَلِمَة فِي عَمُود ثُمَّ قَرِينَتَهَا فِي الآخَر، فَيُرْسَم بَيْنَهُمَا خَطّ. كُلّ لَوْحَة عَلَاقَة وَاحِدَة: ضِدّ أَوْ مُرَادِف أَوْ مُفْرَد وَجَمْع. وَلَا يَظْهَر المَعْنَى إِلَّا بَعْد الوَصْل." }
+    },
+    {
+      "id": "verbs", "engine": "conjugate", "data": "verbs", "levels": 3, "status": "soon",
+      "title": { "en": "Verb Forms", "ar": "أَوْزَان الأَفْعَال" },
+      "blurb": { "en": "The ten forms, past and present, and conjugation across every pronoun.", "ar": "الأَوْزَان العَشَرَة، وَالمَاضِي وَالمُضَارِع، وَتَصْرِيف الفِعْل مَعَ الضَّمَائِر." }
+    },
+    {
+      "id": "typing", "engine": "type", "data": "typing", "levels": 3, "status": "soon",
+      "title": { "en": "Writing It Out", "ar": "الكِتَابَة بِالعَرَبِيَّة" },
+      "blurb": { "en": "Type the word yourself, with an on-screen keyboard if you have no Arabic layout.", "ar": "اُكْتُب الكَلِمَة بِنَفْسِك، وَلَك لَوْحَة مَفَاتِيح عَلَى الشَّاشَة إِنْ لَمْ تَكُنْ عِنْدَك." }
+    },
+    {
+      "id": "sira", "engine": "mcq", "data": "sira", "levels": 3, "status": "ready",
+      "title": { "en": "Sira & Sahaba", "ar": "السِّيرَة وَالصَّحَابَة" },
+      "blurb": { "en": "The life of the Prophet ﷺ and his companions — events, names and titles.", "ar": "سِيرَة النَّبِيّ ﷺ وَأَصْحَابه: الوَقَائِع وَالأَسْمَاء وَالأَلْقَاب." },
+      "howto": {
+        "en": "Ten questions a round. Answer with the {{أ}} {{ب}} {{ج}} {{د}} buttons or the number keys, then Enter to carry on. A note appears after each answer — that is where most of the learning is, so read it even when you were right.",
+        "ar": "عَشَرَة أَسْئِلَة فِي الجَوْلَة. أَجِب بِالأَزْرَار أَوْ بِالأَرْقَام، ثُمَّ اِضْغَط Enter لِلْمُتَابَعَة. وَبَعْد كُلّ إِجَابَة فَائِدَة، فَاقْرَأْهَا وَإِنْ أَصَبْت."
+      }
+    },
+    {
+      "id": "tajweed", "engine": "mcq", "data": "tajweed", "levels": 3, "status": "soon",
+      "title": { "en": "Tajweed Rules", "ar": "أَحْكَام التَّجْوِيد" },
+      "blurb": { "en": "Idgham, ikhfa, qalqala and the rest — recognise each rule where it occurs.", "ar": "الإِدْغَام وَالإِخْفَاء وَالقَلْقَلَة وَغَيْرُهَا، تَعْرِفهَا فِي مَوَاضِعِهَا." }
+    },
+    {
+      "id": "timeline", "engine": "sequence", "data": "timeline", "levels": 3, "status": "soon",
+      "title": { "en": "Putting It In Order", "ar": "التَّرْتِيب الزَّمَنِيّ" },
+      "blurb": { "en": "Arrange the events of the Sira and early Islamic history by date.", "ar": "رَتِّب وَقَائِع السِّيرَة وَصَدْر الإِسْلَام بِحَسَب تَارِيخِهَا." }
+    }
+  ]
+}

@@ -1,0 +1,1025 @@
+/* =========================================================================
+   Kurrasa — the exercise book
+   Every value here traces to DIRECTION.md. Before adding anything, check its
+   "Banned in this project" list: no radius, no shadow, no green, no emoji,
+   no letter-spacing on Arabic.
+   ========================================================================= */
+
+/* --- Fonts, self-hosted -------------------------------------------------
+   Static instances, not variable files: Newsreader's opsz axis costs ~6x
+   (129 KB vs 22 KB for the same latin subset) and nothing here animates it.
+   Regenerate with scratchpad/fetch-fonts.ps1 if a face needs changing.
+   latin-ext is NOT optional — the transliteration layer needs ā ī ū ḥ ṣ ṭ ḍ ẓ ʿ ʾ.
+   ------------------------------------------------------------------------ */
+
+@font-face {
+  font-family: 'Amiri';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./assets/fonts/amiri-400.woff2') format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+@font-face {
+  font-family: 'Amiri';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./assets/fonts/amiri-700.woff2') format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./assets/fonts/newsreader-400.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./assets/fonts/newsreader-400-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./assets/fonts/newsreader-500.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./assets/fonts/newsreader-500-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Newsreader';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./assets/fonts/newsreader-italic.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Newsreader';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./assets/fonts/newsreader-italic-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+:root {
+  --paper:       #F6F1E4;
+  --paper-2:     #EDE7D6;
+  --ink:         #191512;
+  --ink-soft:    #6B6154;
+  --rule:        #D3C9B2;
+  --rule-strong: #B4A88E;
+  /* --edge is the INTERACTIVE boundary: tiles, cells, ghost buttons. It is a
+     separate token from --rule-strong because a printed rule can be faint,
+     but a control's edge must clear 3:1 against the paper (WCAG 1.4.11). */
+  --edge:        #8A7E66;
+  --red:         #BE2B1E;
+  --red-wash:    #F7E2DE;
+  /* The second pen. Marks correct — always alongside a shape cue (doubled
+     rule, tick), never as the only signal. See DIRECTION.md. */
+  --green:       #2F6640;
+  --green-wash:  #E4EEE2;
+
+  /* Spacing scale — sized to encode grouping, not applied uniformly. */
+  --s1: 4px;  --s2: 8px;  --s3: 12px;
+  --s4: 20px; --s5: 32px; --s6: 52px;
+
+  --measure: 34rem;
+  --page: 58rem;
+
+  --font: "Newsreader", "Amiri", Georgia, serif;
+  --font-ar: "Amiri", "Scheherazade New", "Noto Naskh Arabic", serif;
+
+  /* Arabic renders optically smaller than Latin at the same nominal size. */
+  --script-scale: 1.15;
+
+  /* Direction-aware transform origin for the correction stroke. */
+  --start-edge: left;
+}
+
+[dir="rtl"] { --start-edge: right; }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #141210; --paper-2: #1C1916;
+    --ink: #EDE5D4;   --ink-soft: #9A9080;
+    --rule: #332E26;  --rule-strong: #4A4238;
+    --edge: #7A6F5C;
+    --red: #E8695C;   --red-wash: #37201C;
+    --green: #7FC194; --green-wash: #162C1D;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #141210; --paper-2: #1C1916;
+  --ink: #EDE5D4;   --ink-soft: #9A9080;
+  --rule: #332E26;  --rule-strong: #4A4238;
+  --edge: #7A6F5C;
+  --red: #E8695C;   --red-wash: #37201C;
+  --green: #7FC194; --green-wash: #162C1D;
+}
+
+*, *::before, *::after { box-sizing: border-box; border-radius: 0; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  min-block-size: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font);
+  font-size: clamp(16px, .5vw + 14.6px, 18px);
+  line-height: 1.5;
+  font-variant-numeric: oldstyle-nums;
+}
+
+/* Arabic must never receive letter-spacing (it severs the cursive joins) or a
+   synthesised italic. Zero specificity via :where() so real rules still win. */
+:where([lang="ar"], [dir="rtl"]) * {
+  letter-spacing: normal;
+  font-style: normal;
+}
+
+h1, h2, h3 { margin-block: 0 var(--s2); line-height: 1.22; font-weight: 500; text-wrap: balance; }
+
+button { font: inherit; color: inherit; background: none; border: 0; }
+a { color: inherit; }
+
+:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+
+.sr-only {
+  position: absolute; inline-size: 1px; block-size: 1px;
+  padding: 0; margin: -1px; overflow: hidden;
+  clip-path: inset(50%); white-space: nowrap;
+}
+
+.skip-link {
+  position: absolute; inset-block-start: -100px; inset-inline-start: var(--s4);
+  z-index: 20; background: var(--ink); color: var(--paper);
+  padding: var(--s2) var(--s4); text-decoration: none;
+}
+.skip-link:focus { inset-block-start: 0; }
+
+/* ---------- Arabic specimens -------------------------------------------
+   The signature: Arabic sits on a visible ruled line, like exercise paper. */
+
+.ar {
+  font-family: var(--font-ar);
+  direction: rtl;
+  unicode-bidi: isolate;
+  font-size: calc(1em * var(--script-scale));
+  line-height: 1.95;               /* room for harakat */
+}
+.ar-lg { font-size: calc(1.7em * var(--script-scale)); }
+.ar-xl { font-size: calc(2.4em * var(--script-scale)); }
+
+/* Arabic inside an English sentence — isolated so the punctuation stays put. */
+.ar-inline {
+  font-family: var(--font-ar);
+  font-size: calc(1em * var(--script-scale));
+  direction: rtl;
+  unicode-bidi: isolate;
+}
+
+.baseline {
+  display: inline-block;
+  border-block-end: 2px solid var(--rule-strong);
+  padding-block-end: var(--s1);
+}
+
+.tr {
+  display: block;
+  font-size: .78em; font-style: italic;
+  color: var(--ink-soft); line-height: 1.35;
+}
+.gloss {
+  display: block;
+  font-size: .82em; color: var(--ink-soft); line-height: 1.35;
+}
+
+/* Learners switch these off as they improve; CSS-only so the toggle never
+   re-renders and never restarts a round in progress. */
+:root[data-translit="off"] .tr { display: none; }
+:root[data-gloss="off"] .gloss { display: none; }
+
+/* Exercise numbers belong to the Arabic layer — see DIRECTION.md > Numerals. */
+.num {
+  font-family: var(--font-ar);
+  font-size: 1.15em;
+  color: var(--ink-soft);
+  font-variant-numeric: normal;
+}
+
+/* ---------- Masthead ---------------------------------------------------- */
+
+.masthead {
+  inline-size: min(100% - var(--s5), var(--page));
+  margin-inline: auto;
+  padding-block: var(--s4) var(--s3);
+  display: flex; align-items: flex-end; gap: var(--s4); flex-wrap: wrap;
+  border-block-end: 1px solid var(--rule);
+}
+
+.brand {
+  text-decoration: none;
+  margin-inline-end: auto;
+  display: flex; align-items: baseline; gap: var(--s2);
+}
+.brand-ar { font-family: var(--font-ar); font-size: 1.75rem; line-height: 1; }
+.brand-la { font-size: .82rem; color: var(--ink-soft); letter-spacing: .14em; text-transform: uppercase; }
+
+.controls { display: flex; gap: 0; flex-wrap: wrap; margin-block-end: 2px; }
+
+/* The author's line, sitting on its own row under the controls. flex-basis
+   100% is what breaks it onto that row — the masthead already wraps. */
+.byline {
+  flex-basis: 100%;
+  margin: 0;
+  padding-block-start: var(--s2);
+  font-size: .78rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+}
+/* The one outbound link on the site, so it has to look like one. Red and green
+   are spoken for, so the emphasis is made with ink weight and a solid rule
+   rather than a new hue — full ink on paper is ~13:1 either theme. */
+.byline a {
+  color: var(--ink);
+  font-weight: 500;
+  text-decoration: none;
+  background: var(--paper-2);
+  /* 5px, not 2px: at this size that is what clears the 24px minimum tap
+     target. Matches .feedback a at the other end of the page. */
+  padding: 5px var(--s2);
+  border-block-end: 2px solid var(--ink);
+  white-space: nowrap;
+}
+.byline a:hover,
+.byline a:focus-visible { background: var(--ink); color: var(--paper); }
+
+.ctl {
+  padding: var(--s1) var(--s3);
+  font-size: .76rem;
+  color: var(--ink-soft);
+  cursor: pointer;
+  border-inline-end: 1px solid var(--rule);
+  text-transform: uppercase; letter-spacing: .1em;
+  transition: color .12s;
+}
+.ctl:last-child { border-inline-end: 0; padding-inline-end: 0; }
+.ctl:first-child { padding-inline-start: 0; }
+.ctl:hover { color: var(--ink); }
+.ctl[aria-pressed="true"] { color: var(--ink); }
+/* :not(.ctl-icon) — otherwise the pressed-state underline is drawn under the
+   SVG wrapper too, which looks like a stray rule beside the icon. */
+.ctl[aria-pressed="true"] span:not(.ctl-icon) {
+  border-block-end: 2px solid var(--ink); padding-block-end: 1px;
+}
+.ctl-lang { font-family: var(--font-ar); text-transform: none; letter-spacing: normal; font-size: .95rem; }
+
+/* Icon + label sit on one baseline. The underline that marks a pressed control
+   belongs to the label only, so it is applied to the label span, not here. */
+.ctl { display: inline-flex; align-items: center; gap: var(--s1); }
+.ctl-icon { display: inline-flex; }
+.ctl-mark { display: block; color: currentColor; }
+
+/* ---------- Page frame -------------------------------------------------- */
+
+#stage {
+  flex: 1;
+  inline-size: min(100% - var(--s5), var(--page));
+  margin-inline: auto;
+  padding-block: var(--s5) var(--s6);
+}
+
+/* New content is laid down on the page rather than snapped into place.
+   Deliberately on #stage's direct CHILDREN and not on #stage itself: every
+   route calls replaceChildren(), which makes fresh nodes, and a CSS animation
+   runs on its own whenever an element is inserted. So there is no class to
+   toggle and no render path that can forget to. Engines repaint their own
+   inner elements, which are not #stage's children, so a repaint mid-round does
+   not re-trigger this — only a route change does.
+
+   `from` is opacity .55, not 0. If this ever stalls on its first frame — a
+   backgrounded tab, or a preview pane that does not composite — the page is
+   still readable. Starting from 0 would blank the whole screen, which is the
+   banned invisible-resting-state trap applied to an entire route.
+
+   The 5px lift is safe for the Match engine even though drawLines() measures
+   positions: it measures the wrapper and the tiles and subtracts one from the
+   other, so a transform that moves both leaves the relative geometry alone. */
+#stage > * { animation: page-settle 200ms ease-out; }
+@keyframes page-settle {
+  from { opacity: .55; transform: translateY(5px); }
+}
+
+.colophon {
+  inline-size: min(100% - var(--s5), var(--page));
+  margin-inline: auto;
+  padding-block: var(--s4);
+  border-block-start: 1px solid var(--rule);
+  color: var(--ink-soft); font-size: .78rem;
+}
+.colophon p { margin: 0; }
+
+/* The feedback line sits under the colophon at the same weight — an annotation
+   in the margin of the page, not a call to action. Same treatment as the
+   masthead byline link, so the two ends of the page match. */
+.colophon .feedback { margin-block-start: var(--s2); }
+.feedback a {
+  color: var(--ink);
+  font-weight: 500;
+  text-decoration: none;
+  background: var(--paper-2);
+  /* 5px rather than the byline's 2px: at this font size that is what takes the
+     tap target past the 24px WCAG minimum. The extra 3px is invisible next to
+     the masthead link but the difference matters on a phone. */
+  padding: 5px var(--s2);
+  border-block-end: 2px solid var(--ink);
+  white-space: nowrap;
+}
+/* An <a> with no href — the script has not run — must not look clickable. */
+.feedback a:not([href]) { background: none; border-block-end: 0; padding: 0; color: inherit; }
+.feedback a:hover,
+.feedback a:focus-visible { background: var(--ink); color: var(--paper); }
+
+.page-head { margin-block-end: var(--s5); max-inline-size: var(--measure); }
+.page-head h1 { font-size: clamp(1.6rem, 3.4vw, 2.3rem); }
+.page-head p { color: var(--ink-soft); margin-block: var(--s2) 0; }
+
+.section-rule {
+  display: flex; align-items: baseline; gap: var(--s3);
+  margin-block: var(--s6) var(--s3);
+  font-size: .74rem; text-transform: uppercase; letter-spacing: .14em;
+  color: var(--ink-soft);
+}
+.section-rule::after {
+  content: ""; flex: 1; block-size: 1px; background: var(--rule);
+}
+
+/* ---------- Hub: a workbook contents page, not a card grid --------------- */
+
+.index-list { border-block-start: 1px solid var(--rule); }
+
+.index-row {
+  display: grid;
+  grid-template-columns: 2.9rem minmax(0, 1fr) auto;
+  gap: 0 var(--s4);
+  align-items: baseline;
+  padding-block: var(--s4);
+  border-block-end: 1px solid var(--rule);
+  text-decoration: none;
+  transition: border-color .12s;
+}
+a.index-row:hover { border-block-end-color: var(--ink); }
+a.index-row:hover .row-en { border-block-end: 1px solid var(--ink); }
+
+.index-row.is-soon { color: var(--ink-soft); cursor: default; }
+
+/* Coming soon: recessed, but still legible. Showing what is planned is part of
+   what a contents page is for, so these are dimmed rather than hidden. */
+.index-list.is-soon-list { opacity: .62; }
+.index-list.is-soon-list .row-en { font-weight: 400; }
+
+/* ---------- Margin marks ------------------------------------------------
+   Pen marks, not iconography: open strokes inheriting the ink colour. The
+   small per-row rotation is what keeps them feeling stamped by hand rather
+   than placed on a grid. */
+
+/* Drawn in ink, not in rule colour — a mark the hand made has to read as
+   deliberate, and --rule-strong is too close to the paper to carry detail. */
+.mark-ink { display: block; color: var(--ink-soft); transition: color .12s; }
+a.index-row:hover .mark-ink { color: var(--ink); }
+.index-row.is-soon .mark-ink { opacity: .6; }
+
+.gutter {
+  display: flex; flex-direction: column; align-items: center;
+  gap: var(--s2);
+}
+
+.index-row:nth-child(3n+1) .mark-ink { transform: rotate(-3.5deg); }
+.index-row:nth-child(3n+2) .mark-ink { transform: rotate(2.5deg); }
+.index-row:nth-child(3n)   .mark-ink { transform: rotate(-1deg); }
+
+.intro-mark { display: flex; align-items: center; gap: var(--s4); }
+.intro-mark .mark-ink { color: var(--rule-strong); transform: rotate(-2.5deg); }
+
+.row-body { min-inline-size: 0; }
+.row-en { font-size: 1.06rem; }
+.row-ar {
+  font-family: var(--font-ar); direction: rtl; unicode-bidi: isolate;
+  font-size: 1.3rem; line-height: 1.8; display: block;
+}
+.row-note { display: block; font-size: .84rem; color: var(--ink-soft); margin-block-start: var(--s1); }
+
+.row-meta {
+  text-align: end; font-size: .74rem; color: var(--ink-soft);
+  text-transform: uppercase; letter-spacing: .1em; white-space: nowrap;
+}
+.row-meta b { display: block; font-size: 1rem; font-weight: 500; color: var(--ink);
+              text-transform: none; letter-spacing: normal; }
+
+/* ---------- Buttons ----------------------------------------------------- */
+
+.btn {
+  display: inline-block;
+  padding: var(--s2) var(--s4);
+  border: 1px solid var(--ink);
+  cursor: pointer; text-decoration: none;
+  font-size: .92rem;
+  transition: background .12s, color .12s;
+}
+.btn:hover { background: var(--ink); color: var(--paper); }
+.btn-ghost { border-color: var(--edge); color: var(--ink-soft); }
+.btn-ghost:hover { background: none; border-color: var(--ink); color: var(--ink); }
+.btn-row { display: flex; gap: var(--s3); flex-wrap: wrap; margin-block-start: var(--s5); }
+
+.back {
+  display: inline-block; margin-block-end: var(--s4);
+  font-size: .8rem; color: var(--ink-soft); text-decoration: none;
+  text-transform: uppercase; letter-spacing: .1em;
+}
+.back:hover { color: var(--ink); }
+
+/* Repeated at the foot of an exercise: on a phone the top link has scrolled
+   away by the time you want it. Ruled off so it reads as the end of the page,
+   not as another answer. */
+.back-bottom {
+  display: block;
+  margin-block: var(--s6) 0;
+  padding-block-start: var(--s4);
+  border-block-start: 1px solid var(--rule);
+}
+
+/* ---------- Exercise intro ---------------------------------------------- */
+
+.intro { max-inline-size: var(--measure); }
+.intro .intro-num { font-family: var(--font-ar); font-size: 2rem; color: var(--ink-soft); }
+.intro h1 { font-size: clamp(1.5rem, 3vw, 2rem); margin-block-start: var(--s2); }
+.intro .intro-ar {
+  font-family: var(--font-ar); direction: rtl; unicode-bidi: isolate;
+  font-size: 1.9rem; line-height: 1.9; color: var(--ink-soft);
+}
+.intro p { color: var(--ink-soft); }
+
+.howto {
+  margin-block: var(--s4);
+  padding-inline-start: var(--s4);
+  border-inline-start: 2px solid var(--rule-strong);
+  font-size: .89rem; color: var(--ink-soft);
+}
+
+.levels { margin-block: var(--s5) 0; border-block-start: 1px solid var(--rule); }
+.level {
+  inline-size: 100%;
+  display: flex; align-items: baseline; gap: var(--s3);
+  padding-block: var(--s3);
+  border-block-end: 1px solid var(--rule);
+  cursor: pointer; text-align: start;
+  transition: border-color .12s;
+}
+.level:hover { border-block-end-color: var(--ink); }
+.level .lvl-ar { font-family: var(--font-ar); font-size: 1.2rem; }
+.level .lvl-en { color: var(--ink-soft); font-size: .88rem; }
+.level .lvl-score { margin-inline-start: auto; font-size: .82rem; color: var(--ink-soft); }
+
+/* ---------- Quiz -------------------------------------------------------- */
+
+.sheet { max-inline-size: var(--measure); }
+
+.sheet-head {
+  display: flex; align-items: baseline; gap: var(--s4);
+  font-size: .76rem; text-transform: uppercase; letter-spacing: .12em;
+  color: var(--ink-soft);
+  padding-block-end: var(--s2);
+}
+.sheet-head .tally { margin-inline-start: auto; letter-spacing: normal; text-transform: none;
+                     font-size: .95rem; color: var(--ink); }
+
+.gauge { block-size: 2px; background: var(--rule); margin-block-end: var(--s5); }
+.gauge > i { display: block; block-size: 100%; inline-size: 0%; background: var(--ink);
+             transition: inline-size .25s ease; }
+
+.prompt { font-size: clamp(1.15rem, 2.3vw, 1.4rem); font-weight: 400; margin-block-end: var(--s5); }
+
+.choices { border-block-start: 1px solid var(--rule); }
+
+.choice {
+  position: relative;
+  inline-size: 100%;
+  display: grid;
+  grid-template-columns: 1.6rem minmax(0, 1fr);
+  gap: var(--s3);
+  align-items: baseline;
+  padding-block: var(--s3);
+  border-block-end: 1px solid var(--rule);
+  cursor: pointer; text-align: start;
+  transition: border-color .12s;
+}
+.choice:hover:not(:disabled) { border-block-end-color: var(--ink); }
+.choice:disabled { cursor: default; }
+.choice .mark { font-size: .8rem; color: var(--ink-soft); }
+
+/* Correct = the teacher's double underline and heavier ink, now in the green
+   pen. The doubled rule and the tick carry the meaning on their own, so the
+   colour is a second, redundant cue rather than the only one — which is what
+   keeps this readable without colour vision. */
+/* The doubled rule is a plain, static border — no animated overlay. An earlier
+   version drew a second rule in over the top with a scaleX(0) base state,
+   which stacked two rules AND meant the cue was invisible if the animation
+   never ran. Correctness must never depend on a frame being painted. */
+.choice.is-right { border-block-end: 4px double var(--green); }
+.choice.is-right .ar { font-weight: 700; animation: ink-settle 300ms ease-out; }
+.choice.is-right .mark { color: var(--green); }
+/* The tick is drawn, not faded in: a horizontal wipe, so the short down-stroke
+   appears first and the long up-stroke sweeps out after it — the order a hand
+   actually draws a tick. Left-to-right is correct in both directions here,
+   because a tick is a pen gesture and not a letter; it does not mirror in an
+   Arabic exercise book, so no logical-direction handling is wanted.
+   The resting clip is inset only on the start edge and negative elsewhere, so
+   the glyph is never cropped vertically at rest. */
+.choice.is-right .mark::after {
+  content: "✓";
+  clip-path: inset(-30% -30% -30% 0);
+  animation: tick-draw 260ms ease-out;
+}
+
+/* Wrong = the correction pen. */
+.choice.is-wrong { background: var(--red-wash); color: var(--red); }
+.choice.is-wrong .mark, .choice.is-wrong .tr, .choice.is-wrong .gloss { color: var(--red); }
+.choice.is-wrong::after {
+  content: "";
+  position: absolute;
+  inset-inline: var(--s2); inset-block-start: 50%;
+  block-size: 1.5px; background: var(--red);
+  transform: scaleX(0); transform-origin: var(--start-edge);
+  animation: strike 180ms ease-out forwards;
+}
+@keyframes strike { to { transform: scaleX(1); } }
+
+/* The celebration, such as it is: the tick is drawn on and the ink darkens, as
+   though just written. Nothing scales, bounces, or throws confetti — the
+   direction's rule is that almost nothing moves.
+
+   Both animate FROM a hidden state TO the element's normal one, with no fill
+   mode. That ordering matters: the resting state is the visible one, so if the
+   animation never runs — reduced motion, a backgrounded tab, an old engine —
+   the mark is simply there. A cue that only exists mid-animation is a cue that
+   can vanish. */
+@keyframes tick-draw {
+  from { clip-path: inset(-30% 100% -30% 0); opacity: .55; }
+}
+@keyframes ink-settle {
+  from { opacity: .5; }
+}
+
+.margin-note {
+  margin-block-start: var(--s4);
+  padding-inline-start: var(--s4);
+  border-inline-start: 2px solid var(--rule-strong);
+  font-size: .89rem; color: var(--ink-soft);
+}
+.margin-note b { display: block; color: var(--ink); font-weight: 500; font-size: .76rem;
+                 text-transform: uppercase; letter-spacing: .12em; margin-block-end: var(--s1); }
+
+/* Each outcome gets BOTH a colour and a mark. The symbol is what survives if
+   the colour cannot be seen, so it is the part carrying the meaning; the
+   colour makes it readable at a glance. */
+.margin-note.is-right   { border-inline-start-color: var(--green); }
+.margin-note.is-right b { color: var(--green); }
+.margin-note.is-right b::before { content: "✓\00a0"; }
+
+.margin-note.is-wrong   { border-inline-start-color: var(--red); }
+.margin-note.is-wrong b { color: var(--red); }
+.margin-note.is-wrong b::before { content: "✗\00a0"; }
+
+.margin-note.is-queried   { border-inline-start-color: var(--edge); }
+.margin-note.is-queried b { color: var(--ink); }
+.margin-note.is-queried b::before { content: "≈\00a0"; }
+
+/* A bonus word is credit, not a correction — and the turn is still open, so
+   this sits above a live board. Marked with a star and the neutral rule:
+   neither the green of a solved item nor the red of a mistake. */
+.margin-note.is-bonus   { border-inline-start-color: var(--edge); background: var(--paper-2); }
+.margin-note.is-bonus b { color: var(--ink); }
+.margin-note.is-bonus b::before { content: "★\00a0"; }
+.margin-note.is-bonus .c-label { display: block; margin-block-start: var(--s2); }
+
+/* ---------- Word search -------------------------------------------------
+   Borrowed from the letter-form table: a hairline grid of cells. */
+
+.ws-wrap { display: grid; gap: var(--s5); align-items: start; }
+@media (min-width: 46rem) { .ws-wrap { grid-template-columns: minmax(0,1fr) 13rem; } }
+
+.ws-grid {
+  display: grid;
+  border-block-start: 1px solid var(--rule);
+  border-inline-start: 1px solid var(--rule);
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  direction: rtl;              /* words read right-to-left across the grid */
+}
+
+.ws-cell {
+  aspect-ratio: 1;
+  display: grid; place-items: center;
+  border-block-end: 1px solid var(--rule);
+  border-inline-end: 1px solid var(--rule);
+  font-family: var(--font-ar);
+  font-size: clamp(.95rem, 3.6vw, 1.4rem);
+  line-height: 1;
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: background .1s, color .1s;
+}
+.ws-cell.is-picking { background: var(--paper-2); color: var(--ink); }
+.ws-cell.is-found   {
+  background: var(--green-wash); color: var(--green); font-weight: 700;
+  animation: ink-settle 300ms ease-out;
+}
+
+.ws-list { border-block-start: 1px solid var(--rule); }
+.ws-word {
+  display: flex; align-items: baseline; gap: var(--s2);
+  padding-block: var(--s2);
+  border-block-end: 1px solid var(--rule);
+}
+.ws-word .w-ar { font-family: var(--font-ar); font-size: 1.25rem; direction: rtl; unicode-bidi: isolate; }
+.ws-word .w-en { margin-inline-start: auto; font-size: .8rem; color: var(--ink-soft); }
+.ws-word.is-done { color: var(--green); }
+.ws-word.is-done .w-ar { text-decoration: line-through; text-decoration-color: var(--green); }
+
+/* ---------- Assemble ----------------------------------------------------
+   The writing line is the direction's signature made literal: letters are
+   set down onto a ruled line, exactly as in the book. Slots are transparent
+   boxes ON that rule, not cards floating above it.
+
+   NB: no letter-spacing anywhere here. The joiners in shapeAt() draw the
+   connecting strokes, and any tracking would prise them apart. */
+
+.as-hint {
+  font-size: .9rem; color: var(--ink-soft);
+  min-block-size: 1.4em; margin-block-end: var(--s4);
+}
+
+/* "Build the Word" gives the meaning and nothing else — if it is missed, the
+   exercise is unplayable. So it is set as a caption over a large word, not as
+   another line of muted hint text. */
+.as-hint.is-clue { min-block-size: auto; margin-block-end: var(--s5); }
+.clue-label {
+  display: block;
+  font-size: .7rem; text-transform: uppercase; letter-spacing: .14em;
+  color: var(--ink-soft); margin-block-end: var(--s1);
+}
+.clue-word {
+  display: block;
+  /* The floor matters more than the ceiling here: on a narrow viewport the vw
+     term is what binds, so a low minimum leaves the clue small exactly where
+     it is hardest to notice. */
+  font-size: clamp(2.6rem, 10vw, 3.6rem);
+  font-weight: 400; line-height: 1.1; color: var(--ink);
+  border-block-end: 1px solid var(--rule);
+  padding-block-end: var(--s3);
+  text-wrap: balance;
+}
+
+.as-line {
+  /* The element carries dir="rtl", so plain `row` already runs right-to-left
+     and slot 0 lands on the right. Adding row-reverse here flips it back and
+     prints the word mirrored — do not "fix" RTL with row-reverse. */
+  display: flex; flex-direction: row; justify-content: center;
+  align-items: flex-end; flex-wrap: wrap;
+  gap: 0;                             /* joins must touch */
+  letter-spacing: normal;
+  border-block-end: 2px solid var(--ink);
+  padding-block: var(--s5) var(--s2);
+  margin-block-end: var(--s6);
+  min-block-size: 5.5rem;
+}
+
+.as-slot {
+  font-family: var(--font-ar);
+  font-size: clamp(2rem, 9vw, 3.2rem);
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--ink);
+  padding: 0;
+  min-inline-size: 1.2rem;
+  cursor: pointer;
+  transition: color .12s;
+}
+.as-slot:disabled { cursor: default; }
+.as-slot.is-fixed { color: var(--ink-soft); }
+
+/* An empty slot is a gap in the line, drawn the way a book prints one. */
+.as-slot.is-empty {
+  min-inline-size: 2.2rem;
+  /* --edge, not --rule-strong: the gap is the thing you have to act on, so it
+     is a control boundary and must clear 3:1. The faint printed rule is fine
+     for decoration but disappears against dark paper. */
+  border-block-end: 2px solid var(--edge);
+  margin-inline: 2px;
+  margin-block-end: 6px;
+}
+.as-slot.is-markable:hover { color: var(--ink); }
+.as-slot.is-sel { background: var(--paper-2); }
+/* The pen runs along the finished word: each letter's ink darkens a beat after
+   the one before it. DOM order is logical order, so this sweeps right to left
+   in Arabic on its own — no physical-direction trickery, which is the trap
+   `.as-line` fell into once already.
+
+   `backwards` is needed so a delayed letter holds its starting ink during the
+   wait instead of flashing dark, light, dark. That is not the banned pattern:
+   what `ink-settle` animates is opacity .55 → 1, while the cue itself is the
+   green and the weight-700, which are plain static properties. The mark is
+   fully legible on every frame, delay included. */
+.as-slot.is-right {
+  font-weight: 700; color: var(--green);
+  animation: ink-settle 260ms ease-out backwards;
+}
+.as-slot.is-right:nth-child(2)   { animation-delay:  45ms; }
+.as-slot.is-right:nth-child(3)   { animation-delay:  90ms; }
+.as-slot.is-right:nth-child(4)   { animation-delay: 135ms; }
+.as-slot.is-right:nth-child(5)   { animation-delay: 180ms; }
+.as-slot.is-right:nth-child(6)   { animation-delay: 225ms; }
+.as-slot.is-right:nth-child(n+7) { animation-delay: 270ms; }
+.as-slot.is-wrong { color: var(--red); }
+
+/* Placed but NOT yet submitted. This state did not exist before the confirm
+   step, and it has to be unmistakable — it is the thing you are about to
+   commit to. Tinted ground plus a solid ink rule under the letter. */
+.as-slot.is-pending {
+  background: var(--paper-2);
+  border-block-end: 2px solid var(--ink);
+  margin-inline: 2px;
+  margin-block-end: 6px;
+}
+
+/* A third mark, sitting between the double rule and the correction pen: the
+   proofreader's wavy query. The letter spells a real Arabic word — just not
+   the one asked for — so it gets neither the tick nor the red pen. */
+.as-slot.is-queried {
+  color: var(--ink);
+  text-decoration: underline wavy;
+  text-decoration-color: var(--edge);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: .16em;
+}
+
+.as-undo-hint { align-self: center; font-size: .8rem; color: var(--ink-soft); }
+
+.as-bank {
+  display: flex; flex-wrap: wrap; justify-content: center;
+  gap: var(--s3);
+  letter-spacing: normal;
+}
+
+/* Bank tiles show the ISOLATED letter. Mapping that to the joined shape on
+   the line is the exercise, not an oversight — same principle as the word
+   search grid. */
+.as-tile, .as-mark {
+  font-family: var(--font-ar);
+  font-size: 1.9rem; line-height: 1;
+  letter-spacing: normal;
+  min-inline-size: 3rem;
+  padding: var(--s3) var(--s2);
+  border: 1px solid var(--edge);
+  background: transparent; color: var(--ink);
+  cursor: pointer;
+  transition: border-color .12s, background .12s;
+}
+.as-tile:hover:not(:disabled), .as-mark:hover:not(:disabled) { border-color: var(--ink); }
+/* A spent tile must still be READABLE — you need to see which letter you
+   already used. .22 made it effectively invisible on dark paper. */
+.as-tile.is-used {
+  opacity: 1; cursor: default;
+  color: var(--ink-soft); border-style: dashed; border-color: var(--rule);
+}
+.as-mark.is-on { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.as-mark:disabled, .as-tile:disabled { cursor: default; }
+
+@media (prefers-reduced-motion: reduce) {
+  .as-slot, .as-tile, .as-mark { transition: none; }
+}
+
+/* ---------- Match: two columns and a drawn line -------------------------
+   The printed-workbook version of this exercise is "draw a line between the
+   columns", so the joins are real lines, measured from the tiles and drawn
+   into an SVG laid over them. */
+
+.mt-wrap {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--s4) clamp(var(--s5), 12vw, 6rem);
+  align-items: start;
+}
+
+.mt-lines {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;      /* the tiles underneath must stay clickable */
+  overflow: visible;
+  z-index: 1;
+}
+.mt-line {
+  fill: none;
+  stroke: var(--green);
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  /* With pathLength="1" on the path, a dash of 1 covers the whole line — so
+     this reads as solid at rest and gives stroke-dashoffset something to
+     animate against. Offset 0 is the resting, fully-drawn state. */
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+}
+/* Joined, but only after a wrong try — drawn in pencil rather than the pen.
+   No pathLength on these, so the dashes stay in real units and keep the same
+   pencil texture whatever the line's length. */
+.mt-line.is-recovered { stroke: var(--edge); stroke-dasharray: 3 4; }
+
+/* A join is drawn, not switched on — it is the exercise's own gesture, the one
+   the printed workbook asks you to make. Only a line joined this moment carries
+   `is-new`; a rebuild after a resize gets no class and so does not redraw the
+   board under the learner. */
+.mt-line.is-new { animation: line-draw 340ms ease-out; }
+@keyframes line-draw { from { stroke-dashoffset: 1; } }
+
+/* The pencil line cannot be drawn with dashoffset without losing its dashes,
+   so it arrives on the same beat by fading instead. */
+.mt-line.is-recovered.is-new { animation: line-fade 340ms ease-out; }
+@keyframes line-fade { from { opacity: 0; } }
+
+.mt-col { display: grid; gap: var(--s3); }
+
+.mt-item {
+  position: relative; z-index: 2;
+  padding: var(--s2) var(--s3);
+  border: 1px solid var(--edge);
+  background: var(--paper);
+  color: var(--ink);
+  cursor: pointer;
+  text-align: start;
+  transition: border-color .12s, background .12s;
+}
+.mt-item:hover:not(:disabled) { border-color: var(--ink); }
+.mt-item:disabled { cursor: default; }
+
+.mt-item .ar { font-size: calc(1.25em * var(--script-scale)); line-height: 1.7; }
+.mt-body { display: block; }
+
+.mt-item.is-sel {
+  background: var(--paper-2);
+  border-color: var(--ink);
+  border-inline-start-width: 3px;
+}
+.mt-item.is-done {
+  border-color: var(--green);
+  color: var(--green);
+  animation: ink-settle 300ms ease-out;
+}
+.mt-item.is-wrong {
+  border-color: var(--red);
+  background: var(--red-wash);
+  color: var(--red);
+}
+
+@media (max-width: 30rem) {
+  .mt-wrap { gap: var(--s3) var(--s4); }
+  .mt-item { padding: var(--s2); }
+  .mt-item .ar { font-size: calc(1.1em * var(--script-scale)); }
+}
+
+/* ---------- Results ----------------------------------------------------- */
+
+.report { max-inline-size: var(--measure); }
+.report-score {
+  font-family: var(--font-ar);
+  font-size: clamp(3.4rem, 11vw, 5rem);
+  line-height: 1; font-variant-numeric: normal;
+  border-block-end: 3px double var(--ink);
+  display: inline-block; padding-block-end: var(--s2);
+}
+.report-sub { color: var(--ink-soft); margin-block: var(--s3) var(--s5); }
+
+.tallies { display: flex; gap: var(--s6); flex-wrap: wrap;
+           padding-block: var(--s4); border-block: 1px solid var(--rule); }
+.tallies div b { display: block; font-size: 1.5rem; font-weight: 400; }
+.tallies div span { font-size: .72rem; color: var(--ink-soft);
+                    text-transform: uppercase; letter-spacing: .12em; }
+
+.best-note { color: var(--ink-soft); font-size: .84rem; margin-block-end: var(--s3); }
+.best-note.is-new { color: var(--ink); border-block-end: 2px solid var(--ink);
+                    display: inline-block; padding-block-end: 2px; }
+
+.corrections { margin-block-start: var(--s6); }
+.correction {
+  padding-block: var(--s3);
+  border-block-end: 1px solid var(--rule);
+  font-size: .92rem;
+}
+.correction .c-q { margin-block-end: var(--s1); }
+.correction .c-right { color: var(--ink); }
+.correction .c-yours { color: var(--red); }
+/* Words made along the way are a note, not a correction — never red. */
+.correction.is-queried { border-inline-start-color: var(--rule-strong); }
+.correction .c-made { color: var(--ink); margin-block-end: var(--s1); }
+.correction .c-label { font-size: .72rem; text-transform: uppercase; letter-spacing: .12em;
+                       color: var(--ink-soft); margin-inline-end: var(--s2); }
+
+/* ---------- Utility ----------------------------------------------------- */
+
+/* ---------- Paper scraps: the end-of-round celebration -------------------
+   Torn bits of THIS book, tossed once when a round beats its own best: the
+   page tones, the printed rules, and the two pens. Not party colours. Zero
+   radius is not a compromise here either — a torn scrap of paper is angular,
+   which is the one place the no-radius rule and the subject agree for free.
+
+   Fired on the report, never mid-round. Ten questions a round means a decent
+   learner is right eight times, and a two-second burst eight times in four
+   minutes stops being a reward and becomes something you sit through. A quiz
+   poll gets away with it because it fires once; this fires once too.
+
+   These are the one thing in the project allowed `forwards` and an invisible
+   end state. The banned-animation rule exists to protect CUES — a mark whose
+   meaning would vanish if a frame went unpainted. A scrap means nothing, so
+   nothing is lost if it never runs, and `forwards` is what stops it snapping
+   back to the middle of the screen for a frame before it is removed. */
+.scraps {
+  position: fixed;
+  inset: 0;
+  z-index: 15;               /* over the page, under the skip-link at 20 */
+  pointer-events: none;
+  overflow: hidden;
+}
+.scrap {
+  position: absolute;
+  inline-size: var(--w);
+  block-size: var(--h);
+  background: var(--c);
+  opacity: 0;
+  animation: scrap-toss var(--dur) cubic-bezier(.25, .5, .4, 1) var(--delay) forwards;
+}
+/* Tossed up, then let go — the arc of paper thrown rather than dropped. */
+@keyframes scrap-toss {
+  0%   { opacity: 0; transform: translate(0, 0) rotate(0deg); }
+  8%   { opacity: 1; }
+  38%  { transform: translate(calc(var(--dx) * .4), var(--rise))
+                    rotate(calc(var(--spin) * .4)); }
+  78%  { opacity: 1; }
+  100% { opacity: 0; transform: translate(var(--dx), var(--fall)) rotate(var(--spin)); }
+}
+
+/* The catalogue pre-rendered into the stage by publish.ps1 for crawlers, and
+   replaced by renderHub() the moment app.js boots. It is never seen for long,
+   but it must not be HIDDEN — text present only for search engines is cloaking.
+   So it is styled to read as an ordinary contents list on the slow connection
+   where it is briefly the whole page. */
+.prerender { max-inline-size: var(--measure); }
+.prerender h1 { font-size: clamp(1.6rem, 3.4vw, 2.3rem); margin-block-end: var(--s3); }
+.prerender ol { margin: var(--s5) 0 0; padding: 0; list-style: none; }
+.prerender li {
+  padding-block: var(--s3);
+  border-block-start: 1px solid var(--rule);
+}
+.prerender a { color: var(--ink); text-decoration: none; }
+.prerender a:hover { text-decoration: underline; }
+.prerender b { font-weight: 600; }
+.prerender p { margin: var(--s1) 0 0; color: var(--ink-soft); font-size: .9rem; }
+.prerender em { color: var(--ink-soft); font-size: .82rem; }
+
+.loading, .failure { padding-block: var(--s6); color: var(--ink-soft); }
+.failure { color: var(--red); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    transition-duration: .001ms !important;
+    /* Delays must go too, or the staggered word-settle would hold its first
+       frame for a quarter of a second with motion turned off — the one case
+       where `backwards` fill could be felt as a pause rather than a sweep. */
+    animation-delay: 0s !important;
+  }
+  /* The red strike is the one mark whose resting state IS scaleX(0), because
+     it has no meaning until it is drawn. Pin it open so the correction is
+     still visible with motion off. The green marks need no equivalent — their
+     resting state is already the visible one. */
+  .choice.is-wrong::after { transform: scaleX(1); }
+}

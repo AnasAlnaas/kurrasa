@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kurrasa — Arabic exercises</title>
+<meta name="description" content="Short Arabic drills for learners: letters, word building, verb forms, word search, and the Sira. Ten questions a round.">
+<meta name="color-scheme" content="light dark">
+<!-- Two tags so the phone's chrome bar matches the page before any script runs.
+     app.js narrows this further: these follow the OS, but the site has its own
+     light/dark toggle, and a reader who forces light on a dark phone would
+     otherwise get a dark bar above a cream page. See applySettings(). -->
+<meta name="theme-color" content="#F6F1E4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141210" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+
+<!-- Fonts are self-hosted; see the @font-face block at the top of styles.css.
+     Only the two faces needed for first paint are preloaded — the rest load
+     on demand via unicode-range, and Amiri 700 only when an answer is
+     marked correct. -->
+<link rel="preload" href="./assets/fonts/amiri-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./assets/fonts/newsreader-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="./styles.css">
+  <link rel="canonical" href="https://kurrasa.netlify.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Kurrasa">
+  <meta property="og:title" content="Kurrasa — Arabic exercises">
+  <meta property="og:description" content="Short Arabic drills for learners: letters, word building, verb forms, word search, and the Sira. Ten questions a round.">
+  <meta property="og:url" content="https://kurrasa.netlify.app/">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:locale:alternate" content="ar_AR">
+  <meta property="og:image" content="https://kurrasa.netlify.app/assets/og.png">
+  <meta property="og:image:width" content="1195">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Kurrasa — Arabic exercises">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Kurrasa — Arabic exercises">
+  <meta name="twitter:description" content="Short Arabic drills for learners: letters, word building, verb forms, word search, and the Sira. Ten questions a round.">
+  <script type="application/ld+json">{"inLanguage":["en","ar"],"author":{"@type":"Person","url":"https://halqa.ly","name":"Anas"},"alternateName":"كُرَّاسَة","@type":"WebSite","@context":"https://schema.org","description":"Short Arabic drills for learners: letters, word building, verb forms, word search, and the Sira. Ten questions a round.","name":"Kurrasa","url":"https://kurrasa.netlify.app/"}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#stage">Skip to the exercises</a>
+
+<header class="masthead">
+  <a class="brand" href="#/" aria-label="Kurrasa — home">
+    <span class="brand-ar" lang="ar" dir="rtl">كُرَّاسَة</span>
+    <span class="brand-la">Kurrasa</span>
+  </a>
+
+  <div class="controls" role="group" aria-label="Display settings">
+    <button type="button" class="ctl" data-toggle="translit" aria-pressed="true">
+      <span data-i18n="c_translit">Sound-out</span>
+    </button>
+    <button type="button" class="ctl" data-toggle="tashkeel" aria-pressed="true">
+      <span data-i18n="c_tashkeel">Guides</span>
+    </button>
+    <button type="button" class="ctl" data-toggle="sound" aria-pressed="true">
+      <span class="ctl-icon" data-ctl-icon="audio"></span>
+      <span data-i18n="c_sound">Audio</span>
+    </button>
+    <button type="button" class="ctl" data-toggle="theme">
+      <span class="ctl-icon" data-ctl-icon="theme"></span>
+      <span data-theme-label>Auto</span>
+    </button>
+    <button type="button" class="ctl ctl-lang" data-toggle="ui">
+      <span data-lang-label lang="ar" dir="rtl">عربي</span>
+    </button>
+  </div>
+
+  <p class="byline">
+    <span data-i18n="byline">These sheets are by Anas, who teaches Arabic. Lessons at</span>
+    <a href="https://halqa.ly" target="_blank" rel="noopener">halqa.ly</a>
+  </p>
+</header>
+
+<main id="stage" tabindex="-1">
+<div class="prerender">
+  <h1>Exercises <span lang="ar" dir="rtl">التَّمَارِين</span></h1>
+  <p>Short drills for people learning Arabic — ten questions a round. The numbering runs from letters through to meaning, but you can start anywhere.</p>
+  <p lang="ar" dir="rtl">تَمَارِين قَصِيرَة لِمَنْ يَتَعَلَّم العَرَبِيَّة، عَشَرَة أَسْئِلَة فِي الجَوْلَة. رُتِّبَتْ مِنْ الحَرْف إِلَى المَعْنَى، وَلَك أَنْ تَبْدَأ مِنْ حَيْثُ شِئْت.</p>
+  <ol>
+    <li>
+      <a href="#/x/letters"><b>The Right Letter</b> <span lang="ar" dir="rtl">اِخْتَرْ الحَرْف</span></a>
+      <p>Spot the missing letter, and tell apart the ones that differ only by their dots.</p>
+      <p lang="ar" dir="rtl">أَكْمِل الحَرْف النَّاقِص، وَمَيِّز بَيْنَ الحُرُوف الَّتِي لَا تَخْتَلِف إِلَّا بِالنَّقْط.</p>
+    </li>
+    <li>
+      <a href="#/x/build"><b>Build the Word</b> <span lang="ar" dir="rtl">تَرْكِيب الكَلِمَة</span></a>
+      <p>Order scrambled letters into a real word, then place the vowel marks on it.</p>
+      <p lang="ar" dir="rtl">رَتِّب الحُرُوف حَتَّى تَسْتَقِيم الكَلِمَة، ثُمَّ اِضْبِطْهَا بِالشَّكْل.</p>
+    </li>
+    <li>
+      <a href="#/x/search"><b>Word Search</b> <span lang="ar" dir="rtl">البَحْث عَنْ الكَلِمَات</span></a>
+      <p>Trace hidden words in a letter grid, a theme at a time.</p>
+      <p lang="ar" dir="rtl">تَتَبَّع الكَلِمَات المُخَبَّأَة فِي شَبَكَة الحُرُوف، مَوْضُوعًا بَعْد مَوْضُوع.</p>
+    </li>
+    <li>
+      <a href="#/x/opposites"><b>Same and Opposite</b> <span lang="ar" dir="rtl">المُتَرَادِف وَالضِّدّ</span></a>
+      <p>Pair a word with its match or its opposite. Singular and plural too.</p>
+      <p lang="ar" dir="rtl">اِقْرِن الكَلِمَة بِمُرَادِفِهَا أَوْ ضِدِّهَا، وَكَذَلِكَ المُفْرَد بِجَمْعِه.</p>
+    </li>
+    <li>
+      <a href="#/x/verbs"><b>Verb Forms</b> <span lang="ar" dir="rtl">أَوْزَان الأَفْعَال</span></a> <em>(coming soon)</em>
+      <p>The ten forms, past and present, and conjugation across every pronoun.</p>
+      <p lang="ar" dir="rtl">الأَوْزَان العَشَرَة، وَالمَاضِي وَالمُضَارِع، وَتَصْرِيف الفِعْل مَعَ الضَّمَائِر.</p>
+    </li>
+    <li>
+      <a href="#/x/typing"><b>Writing It Out</b> <span lang="ar" dir="rtl">الكِتَابَة بِالعَرَبِيَّة</span></a> <em>(coming soon)</em>
+      <p>Type the word yourself, with an on-screen keyboard if you have no Arabic layout.</p>
+      <p lang="ar" dir="rtl">اُكْتُب الكَلِمَة بِنَفْسِك، وَلَك لَوْحَة مَفَاتِيح عَلَى الشَّاشَة إِنْ لَمْ تَكُنْ عِنْدَك.</p>
+    </li>
+    <li>
+      <a href="#/x/sira"><b>Sira &amp; Sahaba</b> <span lang="ar" dir="rtl">السِّيرَة وَالصَّحَابَة</span></a>
+      <p>The life of the Prophet ﷺ and his companions — events, names and titles.</p>
+      <p lang="ar" dir="rtl">سِيرَة النَّبِيّ ﷺ وَأَصْحَابه: الوَقَائِع وَالأَسْمَاء وَالأَلْقَاب.</p>
+    </li>
+    <li>
+      <a href="#/x/tajweed"><b>Tajweed Rules</b> <span lang="ar" dir="rtl">أَحْكَام التَّجْوِيد</span></a> <em>(coming soon)</em>
+      <p>Idgham, ikhfa, qalqala and the rest — recognise each rule where it occurs.</p>
+      <p lang="ar" dir="rtl">الإِدْغَام وَالإِخْفَاء وَالقَلْقَلَة وَغَيْرُهَا، تَعْرِفهَا فِي مَوَاضِعِهَا.</p>
+    </li>
+    <li>
+      <a href="#/x/timeline"><b>Putting It In Order</b> <span lang="ar" dir="rtl">التَّرْتِيب الزَّمَنِيّ</span></a> <em>(coming soon)</em>
+      <p>Arrange the events of the Sira and early Islamic history by date.</p>
+      <p lang="ar" dir="rtl">رَتِّب وَقَائِع السِّيرَة وَصَدْر الإِسْلَام بِحَسَب تَارِيخِهَا.</p>
+    </li>
+  </ol>
+</div>
+</main>
+
+<footer class="colophon">
+  <p data-i18n="colophon">Nothing is sent anywhere. Your progress is stored on this device only.</p>
+  <!-- The href is written by app.js, not here: the address is assembled at
+       runtime so it is not sitting in the served HTML for address harvesters.
+       An <a> with no href is inert and unfocusable, so if the script never
+       runs this degrades to plain text rather than a dead link. -->
+  <p class="feedback">
+    <span data-i18n="feedback_lead">Found a mistake, or something missing?</span>
+    <a data-feedback data-i18n="feedback_link">Write to me</a>
+  </p>
+</footer>
+
+<div id="live" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+<script type="module" src="./app.js"></script>
+</body>
+</html>

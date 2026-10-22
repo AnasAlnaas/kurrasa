@@ -1,0 +1,2293 @@
+{
+  "id": "letters",
+  "perRound": 10,
+  "items": [
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "كِتَاب",
+        "tr": "kitāb",
+        "en": "book"
+      },
+      "choices": [
+        "ت",
+        "ب",
+        "ث",
+        "ن"
+      ],
+      "also": {
+        "كباب": {
+          "ar": "كَبَاب",
+          "tr": "kabāb",
+          "en": "kebab"
+        }
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "شَمْس",
+        "tr": "shams",
+        "en": "sun"
+      },
+      "choices": [
+        "ش",
+        "س"
+      ]
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "جَمِيل",
+        "tr": "jamīl",
+        "en": "beautiful"
+      },
+      "choices": [
+        "ج",
+        "ح",
+        "خ"
+      ]
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "خُبْز",
+        "tr": "khubz",
+        "en": "bread"
+      },
+      "choices": [
+        "ب",
+        "ت",
+        "ث",
+        "ن"
+      ]
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "طَوِيل",
+        "tr": "ṭawīl",
+        "en": "tall, long"
+      },
+      "choices": [
+        "ط",
+        "ظ"
+      ]
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "وَلَد",
+        "tr": "walad",
+        "en": "boy"
+      },
+      "choices": [
+        "د",
+        "ذ"
+      ]
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "رَجُل",
+        "tr": "rajul",
+        "en": "man"
+      },
+      "choices": [
+        "ر",
+        "ز"
+      ],
+      "also": {
+        "زجل": {
+          "ar": "زَجَل",
+          "tr": "zajal",
+          "en": "zajal, sung folk poetry"
+        }
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "بَيْت",
+        "tr": "bayt",
+        "en": "house"
+      },
+      "choices": [
+        "ي",
+        "ب",
+        "ت",
+        "ن"
+      ],
+      "also": {
+        "بنت": {
+          "ar": "بِنْت",
+          "tr": "bint",
+          "en": "girl, daughter"
+        }
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "قَلَم",
+        "tr": "qalam",
+        "en": "pen"
+      },
+      "choices": [
+        "ق",
+        "ف"
+      ],
+      "also": {
+        "فلم": {
+          "ar": "فِلْم",
+          "tr": "film",
+          "en": "film"
+        }
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "صَغِير",
+        "tr": "ṣaghīr",
+        "en": "small"
+      },
+      "choices": [
+        "ص",
+        "ض"
+      ]
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "بِنْت",
+        "tr": "bint",
+        "en": "girl"
+      },
+      "choices": [
+        "ت",
+        "ب",
+        "ث",
+        "ن"
+      ]
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "قَمَر",
+        "tr": "qamar",
+        "en": "moon"
+      },
+      "choices": [
+        "م",
+        "ه"
+      ],
+      "also": {
+        "قهر": {
+          "ar": "قَهْر",
+          "tr": "qahr",
+          "en": "subjugation, oppression"
+        }
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "مَدْرَسَة",
+        "tr": "madrasa",
+        "en": "school"
+      },
+      "choices": [
+        "س",
+        "ش"
+      ]
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "مَكْتَب",
+        "tr": "maktab",
+        "en": "office, desk"
+      },
+      "choices": [
+        "ت",
+        "ب",
+        "ث",
+        "ن"
+      ]
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "صَغِيرَة",
+        "tr": "ṣaghīra",
+        "en": "small (fem.)"
+      },
+      "choices": [
+        "غ",
+        "ع"
+      ]
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "مَطَار",
+        "tr": "maṭār",
+        "en": "airport"
+      },
+      "choices": [
+        "ط",
+        "ظ"
+      ]
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "طَبِيب",
+        "tr": "ṭabīb",
+        "en": "doctor"
+      },
+      "choices": [
+        "ب",
+        "ت",
+        "ث",
+        "ن"
+      ]
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "عَرَبِيّ",
+        "tr": "ʿarabī",
+        "en": "Arabic, Arab"
+      },
+      "choices": [
+        "ب",
+        "ت",
+        "ث",
+        "ن"
+      ]
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "صَدِيق",
+        "tr": "ṣadīq",
+        "en": "friend"
+      },
+      "choices": [
+        "ق",
+        "ف"
+      ]
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "سَرِير",
+        "tr": "sarīr",
+        "en": "bed"
+      },
+      "choices": [
+        "س",
+        "ش"
+      ],
+      "also": {
+        "شرير": {
+          "ar": "شَرِير",
+          "tr": "sharīr",
+          "en": "wicked, evil"
+        }
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "مَطْبَخ",
+        "tr": "maṭbakh",
+        "en": "kitchen"
+      },
+      "choices": [
+        "ط",
+        "ظ"
+      ]
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "مَطْبَخ",
+        "tr": "maṭbakh",
+        "en": "kitchen"
+      },
+      "choices": [
+        "خ",
+        "ج",
+        "ح"
+      ]
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "غُرْفَة",
+        "tr": "ghurfa",
+        "en": "room"
+      },
+      "choices": [
+        "غ",
+        "ع"
+      ],
+      "also": {
+        "عرفة": {
+          "ar": "عَرَفَة",
+          "tr": "ʿArafa",
+          "en": "Arafa, the plain near Mecca"
+        }
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "مُدَرِّس",
+        "tr": "mudarris",
+        "en": "teacher"
+      },
+      "choices": [
+        "ر",
+        "ز"
+      ]
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "حَدِيقَة",
+        "tr": "ḥadīqa",
+        "en": "garden"
+      },
+      "choices": [
+        "ق",
+        "ف"
+      ]
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "نَافِذَة",
+        "tr": "nāfidha",
+        "en": "window"
+      },
+      "choices": [
+        "ف",
+        "ق"
+      ]
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "نَافِذَة",
+        "tr": "nāfidha",
+        "en": "window"
+      },
+      "choices": [
+        "ذ",
+        "د"
+      ],
+      "also": {
+        "نافدة": {
+          "ar": "نَافِدَة",
+          "tr": "nāfida",
+          "en": "running out, depleted"
+        }
+      }
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "مُهَنْدِس",
+        "tr": "muhandis",
+        "en": "engineer"
+      },
+      "choices": [
+        "د",
+        "ذ"
+      ]
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "مُسْتَشْفَى",
+        "tr": "mustashfā",
+        "en": "hospital"
+      },
+      "choices": [
+        "ش",
+        "س"
+      ]
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "جَامِعَة",
+        "tr": "jāmiʿa",
+        "en": "university"
+      },
+      "choices": [
+        "م",
+        "ه"
+      ]
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "جَامِعَة",
+        "tr": "jāmiʿa",
+        "en": "university"
+      },
+      "choices": [
+        "ع",
+        "غ"
+      ]
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "مَكْتَبَة",
+        "tr": "maktaba",
+        "en": "library, bookshop"
+      },
+      "choices": [
+        "ك",
+        "ل"
+      ]
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 4,
+      "word": {
+        "ar": "مُسْتَشْفَى",
+        "tr": "mustashfā",
+        "en": "hospital"
+      },
+      "choices": [
+        "ف",
+        "ق"
+      ]
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "سَيَّارَة",
+        "tr": "sayyāra",
+        "en": "car"
+      },
+      "choices": [
+        "ا",
+        "و"
+      ]
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "مِفْتَاح",
+        "tr": "miftāḥ",
+        "en": "key"
+      },
+      "choices": [
+        "ف",
+        "ق"
+      ]
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 4,
+      "word": {
+        "ar": "مِفْتَاح",
+        "tr": "miftāḥ",
+        "en": "key"
+      },
+      "choices": [
+        "ح",
+        "ج",
+        "خ"
+      ]
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "اِبْن",
+        "tr": "ibn",
+        "en": "son"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "أُخْت",
+        "tr": "ukht",
+        "en": "sister"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "جَدَّة",
+        "tr": "jadda",
+        "en": "grandmother"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "عَمَّة",
+        "tr": "ʿamma",
+        "en": "paternal aunt"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "خَالَة",
+        "tr": "khāla",
+        "en": "maternal aunt"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "زَوْج",
+        "tr": "zawj",
+        "en": "husband"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "زَوْجَة",
+        "tr": "zawja",
+        "en": "wife"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "أُسْرَة",
+        "tr": "usra",
+        "en": "family"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "طِفْل",
+        "tr": "ṭifl",
+        "en": "child"
+      }
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 4,
+      "word": {
+        "ar": "اِمْرَأَة",
+        "tr": "imraʾa",
+        "en": "woman"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "رَأْس",
+        "tr": "raʾs",
+        "en": "head"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "عَيْن",
+        "tr": "ʿayn",
+        "en": "eye"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "أُذُن",
+        "tr": "udhun",
+        "en": "ear"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "أَنْف",
+        "tr": "anf",
+        "en": "nose"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "قَلْب",
+        "tr": "qalb",
+        "en": "heart"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "شَعْر",
+        "tr": "shaʿr",
+        "en": "hair"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "وَجْه",
+        "tr": "wajh",
+        "en": "face"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "لِسَان",
+        "tr": "lisān",
+        "en": "tongue"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "ظَهْر",
+        "tr": "ẓahr",
+        "en": "back"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "بَطْن",
+        "tr": "baṭn",
+        "en": "stomach"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "إِصْبَع",
+        "tr": "iṣbaʿ",
+        "en": "finger"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "كَتِف",
+        "tr": "katif",
+        "en": "shoulder"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "لَبَن",
+        "tr": "laban",
+        "en": "milk"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "لَحْم",
+        "tr": "laḥm",
+        "en": "meat"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "أَرُزّ",
+        "tr": "aruzz",
+        "en": "rice"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "سُكَّر",
+        "tr": "sukkar",
+        "en": "sugar"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "مِلْح",
+        "tr": "milḥ",
+        "en": "salt"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "زَيْت",
+        "tr": "zayt",
+        "en": "oil"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "بَيْض",
+        "tr": "bayḍ",
+        "en": "eggs"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "دَجَاج",
+        "tr": "dajāj",
+        "en": "chicken"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "جُبْن",
+        "tr": "jubn",
+        "en": "cheese"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "تُفَّاح",
+        "tr": "tuffāḥ",
+        "en": "apples"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "عِنَب",
+        "tr": "ʿinab",
+        "en": "grapes"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "تَمْر",
+        "tr": "tamr",
+        "en": "dates"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "شَاي",
+        "tr": "shāy",
+        "en": "tea"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "قَهْوَة",
+        "tr": "qahwa",
+        "en": "coffee"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "عَسَل",
+        "tr": "ʿasal",
+        "en": "honey"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "طَعَام",
+        "tr": "ṭaʿām",
+        "en": "food"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "سُوق",
+        "tr": "sūq",
+        "en": "market"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "بَاب",
+        "tr": "bāb",
+        "en": "door"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "كُرْسِيّ",
+        "tr": "kursī",
+        "en": "chair"
+      }
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "طَاوِلَة",
+        "tr": "ṭāwila",
+        "en": "table"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "جِدَار",
+        "tr": "jidār",
+        "en": "wall"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "سَقْف",
+        "tr": "saqf",
+        "en": "ceiling, roof"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "مِرْآة",
+        "tr": "mirʾāh",
+        "en": "mirror"
+      }
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "مِصْبَاح",
+        "tr": "miṣbāḥ",
+        "en": "lamp"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "صَحْن",
+        "tr": "ṣaḥn",
+        "en": "plate"
+      }
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "مَدِينَة",
+        "tr": "madīna",
+        "en": "city"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "شَارِع",
+        "tr": "shāriʿ",
+        "en": "street"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "مَسْجِد",
+        "tr": "masjid",
+        "en": "mosque"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "فُنْدُق",
+        "tr": "funduq",
+        "en": "hotel"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "بَنْك",
+        "tr": "bank",
+        "en": "bank"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "مَتْحَف",
+        "tr": "matḥaf",
+        "en": "museum"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "مَطْعَم",
+        "tr": "maṭʿam",
+        "en": "restaurant"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "دُكَّان",
+        "tr": "dukkān",
+        "en": "shop"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "قَرْيَة",
+        "tr": "qarya",
+        "en": "village"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "طَرِيق",
+        "tr": "ṭarīq",
+        "en": "road"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "بَلَد",
+        "tr": "balad",
+        "en": "country, town"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "دَفْتَر",
+        "tr": "daftar",
+        "en": "notebook"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "وَرَقَة",
+        "tr": "waraqa",
+        "en": "sheet of paper"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "دَرْس",
+        "tr": "dars",
+        "en": "lesson"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "مُعَلِّم",
+        "tr": "muʿallim",
+        "en": "teacher"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "طَالِب",
+        "tr": "ṭālib",
+        "en": "student"
+      }
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "اِمْتِحَان",
+        "tr": "imtiḥān",
+        "en": "exam"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "جَوَاب",
+        "tr": "jawāb",
+        "en": "answer"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "لُغَة",
+        "tr": "lugha",
+        "en": "language"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "كَلِمَة",
+        "tr": "kalima",
+        "en": "word"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "حَرْف",
+        "tr": "ḥarf",
+        "en": "letter"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "رَقَم",
+        "tr": "raqam",
+        "en": "number"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "تَاجِر",
+        "tr": "tājir",
+        "en": "merchant"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "فَلَّاح",
+        "tr": "fallāḥ",
+        "en": "farmer"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "سَائِق",
+        "tr": "sāʾiq",
+        "en": "driver"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "كَاتِب",
+        "tr": "kātib",
+        "en": "writer"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "مُدِير",
+        "tr": "mudīr",
+        "en": "manager"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "شَرِكَة",
+        "tr": "sharika",
+        "en": "company"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "مِهْنَة",
+        "tr": "mihna",
+        "en": "profession"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "نَجْم",
+        "tr": "najm",
+        "en": "star"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "أَرْض",
+        "tr": "arḍ",
+        "en": "earth, ground"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "بَحْر",
+        "tr": "baḥr",
+        "en": "sea"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "نَهْر",
+        "tr": "nahr",
+        "en": "river"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "جَبَل",
+        "tr": "jabal",
+        "en": "mountain"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "شَجَرَة",
+        "tr": "shajara",
+        "en": "tree"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "وَرْدَة",
+        "tr": "warda",
+        "en": "flower, rose"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "مَطَر",
+        "tr": "maṭar",
+        "en": "rain"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "رِيح",
+        "tr": "rīḥ",
+        "en": "wind"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "نَار",
+        "tr": "nār",
+        "en": "fire"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "ثَلْج",
+        "tr": "thalj",
+        "en": "snow, ice"
+      }
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "صَحْرَاء",
+        "tr": "ṣaḥrāʾ",
+        "en": "desert"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "سَحَاب",
+        "tr": "saḥāb",
+        "en": "clouds"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "حَجَر",
+        "tr": "ḥajar",
+        "en": "stone"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "كَلْب",
+        "tr": "kalb",
+        "en": "dog"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "حِصَان",
+        "tr": "ḥiṣān",
+        "en": "horse"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "بَقَرَة",
+        "tr": "baqara",
+        "en": "cow"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "خَرُوف",
+        "tr": "kharūf",
+        "en": "sheep"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "أَسَد",
+        "tr": "asad",
+        "en": "lion"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "طَيْر",
+        "tr": "ṭayr",
+        "en": "bird"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "سَمَكَة",
+        "tr": "samaka",
+        "en": "a fish"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "ذِئْب",
+        "tr": "dhiʾb",
+        "en": "wolf"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "نَمْلَة",
+        "tr": "namla",
+        "en": "ant"
+      }
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "دَجَاجَة",
+        "tr": "dajāja",
+        "en": "hen"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "حِمَار",
+        "tr": "ḥimār",
+        "en": "donkey"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "بَطَّة",
+        "tr": "baṭṭa",
+        "en": "duck"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "قَمِيص",
+        "tr": "qamīṣ",
+        "en": "shirt"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "حِذَاء",
+        "tr": "ḥidhāʾ",
+        "en": "shoe"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "ثَوْب",
+        "tr": "thawb",
+        "en": "garment"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "مِعْطَف",
+        "tr": "miʿṭaf",
+        "en": "coat"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "قُبَّعَة",
+        "tr": "qubbaʿa",
+        "en": "hat"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "جَوْرَب",
+        "tr": "jawrab",
+        "en": "sock"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "حِزَام",
+        "tr": "ḥizām",
+        "en": "belt"
+      }
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 4,
+      "word": {
+        "ar": "فُسْتَان",
+        "tr": "fustān",
+        "en": "dress"
+      }
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "نَظَّارَة",
+        "tr": "naẓẓāra",
+        "en": "glasses"
+      }
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 4,
+      "word": {
+        "ar": "مَلَابِس",
+        "tr": "malābis",
+        "en": "clothes"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "لَيْل",
+        "tr": "layl",
+        "en": "night"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "صَبَاح",
+        "tr": "ṣabāḥ",
+        "en": "morning"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "مَسَاء",
+        "tr": "masāʾ",
+        "en": "evening"
+      }
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 4,
+      "word": {
+        "ar": "أُسْبُوع",
+        "tr": "usbūʿ",
+        "en": "week"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "شَهْر",
+        "tr": "shahr",
+        "en": "month"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "سَنَة",
+        "tr": "sana",
+        "en": "year"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "سَاعَة",
+        "tr": "sāʿa",
+        "en": "hour, clock"
+      }
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "دَقِيقَة",
+        "tr": "daqīqa",
+        "en": "minute"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "أَمْس",
+        "tr": "ams",
+        "en": "yesterday"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "وَقْت",
+        "tr": "waqt",
+        "en": "time"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "فَجْر",
+        "tr": "fajr",
+        "en": "dawn"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "ظُهْر",
+        "tr": "ẓuhr",
+        "en": "noon"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "سَفَر",
+        "tr": "safar",
+        "en": "travel"
+      }
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 4,
+      "word": {
+        "ar": "طَائِرَة",
+        "tr": "ṭāʾira",
+        "en": "aeroplane"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "قِطَار",
+        "tr": "qiṭār",
+        "en": "train"
+      }
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "سَفِينَة",
+        "tr": "safīna",
+        "en": "ship"
+      }
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "دَرَّاجَة",
+        "tr": "darrāja",
+        "en": "bicycle"
+      }
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "حَقِيبَة",
+        "tr": "ḥaqība",
+        "en": "bag, suitcase"
+      }
+    },
+    {
+      "d": 3,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "تَذْكِرَة",
+        "tr": "tadhkira",
+        "en": "ticket"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "جَوَاز",
+        "tr": "jawāz",
+        "en": "passport"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "رِحْلَة",
+        "tr": "riḥla",
+        "en": "trip"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "كَبِير",
+        "tr": "kabīr",
+        "en": "big"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "قَصِير",
+        "tr": "qaṣīr",
+        "en": "short"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "جَدِيد",
+        "tr": "jadīd",
+        "en": "new"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "قَدِيم",
+        "tr": "qadīm",
+        "en": "old"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "سَهْل",
+        "tr": "sahl",
+        "en": "easy"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "صَعْب",
+        "tr": "ṣaʿb",
+        "en": "difficult"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "سَرِيع",
+        "tr": "sarīʿ",
+        "en": "fast"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "حَارّ",
+        "tr": "ḥārr",
+        "en": "hot"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "بَارِد",
+        "tr": "bārid",
+        "en": "cold"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "غَنِيّ",
+        "tr": "ghanī",
+        "en": "rich"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "فَقِير",
+        "tr": "faqīr",
+        "en": "poor"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "قَوِيّ",
+        "tr": "qawī",
+        "en": "strong"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "ضَعِيف",
+        "tr": "ḍaʿīf",
+        "en": "weak"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "نَظِيف",
+        "tr": "naẓīf",
+        "en": "clean"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "بَعِيد",
+        "tr": "baʿīd",
+        "en": "far"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "قَرِيب",
+        "tr": "qarīb",
+        "en": "near"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "كَتَبَ",
+        "tr": "kataba",
+        "en": "he wrote"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "شَرِبَ",
+        "tr": "shariba",
+        "en": "he drank"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "ذَهَبَ",
+        "tr": "dhahaba",
+        "en": "he went"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "جَلَسَ",
+        "tr": "jalasa",
+        "en": "he sat"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "فَتَحَ",
+        "tr": "fataḥa",
+        "en": "he opened"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "سَمِعَ",
+        "tr": "samiʿa",
+        "en": "he heard"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "نَظَرَ",
+        "tr": "naẓara",
+        "en": "he looked"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "دَرَسَ",
+        "tr": "darasa",
+        "en": "he studied"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "لَعِبَ",
+        "tr": "laʿiba",
+        "en": "he played"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "خَرَجَ",
+        "tr": "kharaja",
+        "en": "he went out"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "دَخَلَ",
+        "tr": "dakhala",
+        "en": "he entered"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "فَهِمَ",
+        "tr": "fahima",
+        "en": "he understood"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "وَصَلَ",
+        "tr": "waṣala",
+        "en": "he arrived"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 0,
+      "word": {
+        "ar": "رَجَعَ",
+        "tr": "rajaʿa",
+        "en": "he returned"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "أَحْمَر",
+        "tr": "aḥmar",
+        "en": "red"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "أَزْرَق",
+        "tr": "azraq",
+        "en": "blue"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "أَخْضَر",
+        "tr": "akhḍar",
+        "en": "green"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 3,
+      "word": {
+        "ar": "أَصْفَر",
+        "tr": "aṣfar",
+        "en": "yellow"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "أَبْيَض",
+        "tr": "abyaḍ",
+        "en": "white"
+      }
+    },
+    {
+      "d": 2,
+      "mode": "missing",
+      "gap": 1,
+      "word": {
+        "ar": "أَسْوَد",
+        "tr": "aswad",
+        "en": "black"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "بُنِّيّ",
+        "tr": "bunnī",
+        "en": "brown"
+      }
+    },
+    {
+      "d": 1,
+      "mode": "missing",
+      "gap": 2,
+      "word": {
+        "ar": "لَوْن",
+        "tr": "lawn",
+        "en": "colour"
+      }
+    }
+  ]
+}

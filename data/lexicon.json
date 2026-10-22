@@ -1,0 +1,2235 @@
+{
+  "note": "Bare form -> word. Used to recognise a real Arabic word spelled by accident, so it counts as a bonus instead of a mistake. Rebuild with build-lexicon.ps1.",
+  "words": {
+    "أب": {
+      "ar": "أَب",
+      "tr": "ab",
+      "en": "father"
+    },
+    "أم": {
+      "ar": "أُمّ",
+      "tr": "umm",
+      "en": "mother"
+    },
+    "ابن": {
+      "ar": "اِبْن",
+      "tr": "ibn",
+      "en": "son"
+    },
+    "بنت": {
+      "ar": "بِنْت",
+      "tr": "bint",
+      "en": "girl, daughter"
+    },
+    "أخ": {
+      "ar": "أَخ",
+      "tr": "akh",
+      "en": "brother"
+    },
+    "أخت": {
+      "ar": "أُخْت",
+      "tr": "ukht",
+      "en": "sister"
+    },
+    "جد": {
+      "ar": "جَدّ",
+      "tr": "jadd",
+      "en": "grandfather"
+    },
+    "جدة": {
+      "ar": "جَدَّة",
+      "tr": "jadda",
+      "en": "grandmother"
+    },
+    "عم": {
+      "ar": "عَمّ",
+      "tr": "ʿamm",
+      "en": "paternal uncle"
+    },
+    "عمة": {
+      "ar": "عَمَّة",
+      "tr": "ʿamma",
+      "en": "paternal aunt"
+    },
+    "خال": {
+      "ar": "خَال",
+      "tr": "khāl",
+      "en": "maternal uncle"
+    },
+    "خالة": {
+      "ar": "خَالَة",
+      "tr": "khāla",
+      "en": "maternal aunt"
+    },
+    "زوج": {
+      "ar": "زَوْج",
+      "tr": "zawj",
+      "en": "husband"
+    },
+    "زوجة": {
+      "ar": "زَوْجَة",
+      "tr": "zawja",
+      "en": "wife"
+    },
+    "أسرة": {
+      "ar": "أُسْرَة",
+      "tr": "usra",
+      "en": "family"
+    },
+    "ولد": {
+      "ar": "وَلَد",
+      "tr": "walad",
+      "en": "boy"
+    },
+    "طفل": {
+      "ar": "طِفْل",
+      "tr": "ṭifl",
+      "en": "child"
+    },
+    "رجل": {
+      "ar": "رَجُل",
+      "tr": "rajul",
+      "en": "man"
+    },
+    "امرأة": {
+      "ar": "اِمْرَأَة",
+      "tr": "imraʾa",
+      "en": "woman"
+    },
+    "صديق": {
+      "ar": "صَدِيق",
+      "tr": "ṣadīq",
+      "en": "friend"
+    },
+    "رأس": {
+      "ar": "رَأْس",
+      "tr": "raʾs",
+      "en": "head"
+    },
+    "عين": {
+      "ar": "عَيْن",
+      "tr": "ʿayn",
+      "en": "eye"
+    },
+    "أذن": {
+      "ar": "أُذُن",
+      "tr": "udhun",
+      "en": "ear"
+    },
+    "أنف": {
+      "ar": "أَنْف",
+      "tr": "anf",
+      "en": "nose"
+    },
+    "فم": {
+      "ar": "فَم",
+      "tr": "fam",
+      "en": "mouth"
+    },
+    "يد": {
+      "ar": "يَد",
+      "tr": "yad",
+      "en": "hand"
+    },
+    "قلب": {
+      "ar": "قَلْب",
+      "tr": "qalb",
+      "en": "heart"
+    },
+    "شعر": {
+      "ar": "شَعْر",
+      "tr": "shaʿr",
+      "en": "hair"
+    },
+    "وجه": {
+      "ar": "وَجْه",
+      "tr": "wajh",
+      "en": "face"
+    },
+    "سن": {
+      "ar": "سِنّ",
+      "tr": "sinn",
+      "en": "tooth"
+    },
+    "لسان": {
+      "ar": "لِسَان",
+      "tr": "lisān",
+      "en": "tongue"
+    },
+    "ظهر": {
+      "ar": "ظَهْر",
+      "tr": "ẓahr",
+      "en": "back"
+    },
+    "بطن": {
+      "ar": "بَطْن",
+      "tr": "baṭn",
+      "en": "stomach"
+    },
+    "إصبع": {
+      "ar": "إِصْبَع",
+      "tr": "iṣbaʿ",
+      "en": "finger"
+    },
+    "كتف": {
+      "ar": "كَتِف",
+      "tr": "katif",
+      "en": "shoulder"
+    },
+    "خبز": {
+      "ar": "خُبْز",
+      "tr": "khubz",
+      "en": "bread"
+    },
+    "ماء": {
+      "ar": "مَاء",
+      "tr": "māʾ",
+      "en": "water"
+    },
+    "لبن": {
+      "ar": "لَبَن",
+      "tr": "laban",
+      "en": "milk"
+    },
+    "لحم": {
+      "ar": "لَحْم",
+      "tr": "laḥm",
+      "en": "meat"
+    },
+    "أرز": {
+      "ar": "أَرُزّ",
+      "tr": "aruzz",
+      "en": "rice"
+    },
+    "سكر": {
+      "ar": "سُكَّر",
+      "tr": "sukkar",
+      "en": "sugar"
+    },
+    "ملح": {
+      "ar": "مِلْح",
+      "tr": "milḥ",
+      "en": "salt"
+    },
+    "زيت": {
+      "ar": "زَيْت",
+      "tr": "zayt",
+      "en": "oil"
+    },
+    "بيض": {
+      "ar": "بَيْض",
+      "tr": "bayḍ",
+      "en": "eggs"
+    },
+    "سمك": {
+      "ar": "سَمَك",
+      "tr": "samak",
+      "en": "fish"
+    },
+    "دجاج": {
+      "ar": "دَجَاج",
+      "tr": "dajāj",
+      "en": "chicken"
+    },
+    "جبن": {
+      "ar": "جُبْن",
+      "tr": "jubn",
+      "en": "cheese"
+    },
+    "تفاح": {
+      "ar": "تُفَّاح",
+      "tr": "tuffāḥ",
+      "en": "apples"
+    },
+    "عنب": {
+      "ar": "عِنَب",
+      "tr": "ʿinab",
+      "en": "grapes"
+    },
+    "تمر": {
+      "ar": "تَمْر",
+      "tr": "tamr",
+      "en": "dates"
+    },
+    "شاي": {
+      "ar": "شَاي",
+      "tr": "shāy",
+      "en": "tea"
+    },
+    "قهوة": {
+      "ar": "قَهْوَة",
+      "tr": "qahwa",
+      "en": "coffee"
+    },
+    "عسل": {
+      "ar": "عَسَل",
+      "tr": "ʿasal",
+      "en": "honey"
+    },
+    "طعام": {
+      "ar": "طَعَام",
+      "tr": "ṭaʿām",
+      "en": "food"
+    },
+    "سوق": {
+      "ar": "سُوق",
+      "tr": "sūq",
+      "en": "market"
+    },
+    "بيت": {
+      "ar": "بَيْت",
+      "tr": "bayt",
+      "en": "house"
+    },
+    "باب": {
+      "ar": "بَاب",
+      "tr": "bāb",
+      "en": "door"
+    },
+    "نافذة": {
+      "ar": "نَافِذَة",
+      "tr": "nāfidha",
+      "en": "window"
+    },
+    "غرفة": {
+      "ar": "غُرْفَة",
+      "tr": "ghurfa",
+      "en": "room"
+    },
+    "مطبخ": {
+      "ar": "مَطْبَخ",
+      "tr": "maṭbakh",
+      "en": "kitchen"
+    },
+    "سرير": {
+      "ar": "سَرِير",
+      "tr": "sarīr",
+      "en": "bed"
+    },
+    "كرسي": {
+      "ar": "كُرْسِيّ",
+      "tr": "kursī",
+      "en": "chair"
+    },
+    "طاولة": {
+      "ar": "طَاوِلَة",
+      "tr": "ṭāwila",
+      "en": "table"
+    },
+    "مفتاح": {
+      "ar": "مِفْتَاح",
+      "tr": "miftāḥ",
+      "en": "key"
+    },
+    "جدار": {
+      "ar": "جِدَار",
+      "tr": "jidār",
+      "en": "wall"
+    },
+    "سقف": {
+      "ar": "سَقْف",
+      "tr": "saqf",
+      "en": "ceiling, roof"
+    },
+    "حديقة": {
+      "ar": "حَدِيقَة",
+      "tr": "ḥadīqa",
+      "en": "garden"
+    },
+    "مرآة": {
+      "ar": "مِرْآة",
+      "tr": "mirʾāh",
+      "en": "mirror"
+    },
+    "مصباح": {
+      "ar": "مِصْبَاح",
+      "tr": "miṣbāḥ",
+      "en": "lamp"
+    },
+    "سلم": {
+      "ar": "سُلَّم",
+      "tr": "sullam",
+      "en": "stairs, ladder"
+    },
+    "صحن": {
+      "ar": "صَحْن",
+      "tr": "ṣaḥn",
+      "en": "plate"
+    },
+    "مدينة": {
+      "ar": "مَدِينَة",
+      "tr": "madīna",
+      "en": "city"
+    },
+    "شارع": {
+      "ar": "شَارِع",
+      "tr": "shāriʿ",
+      "en": "street"
+    },
+    "مسجد": {
+      "ar": "مَسْجِد",
+      "tr": "masjid",
+      "en": "mosque"
+    },
+    "مستشفى": {
+      "ar": "مُسْتَشْفَى",
+      "tr": "mustashfā",
+      "en": "hospital"
+    },
+    "مدرسة": {
+      "ar": "مَدْرَسَة",
+      "tr": "madrasa",
+      "en": "school"
+    },
+    "مكتبة": {
+      "ar": "مَكْتَبَة",
+      "tr": "maktaba",
+      "en": "library"
+    },
+    "مطار": {
+      "ar": "مَطَار",
+      "tr": "maṭār",
+      "en": "airport"
+    },
+    "فندق": {
+      "ar": "فُنْدُق",
+      "tr": "funduq",
+      "en": "hotel"
+    },
+    "بنك": {
+      "ar": "بَنْك",
+      "tr": "bank",
+      "en": "bank"
+    },
+    "متحف": {
+      "ar": "مَتْحَف",
+      "tr": "matḥaf",
+      "en": "museum"
+    },
+    "مطعم": {
+      "ar": "مَطْعَم",
+      "tr": "maṭʿam",
+      "en": "restaurant"
+    },
+    "دكان": {
+      "ar": "دُكَّان",
+      "tr": "dukkān",
+      "en": "shop"
+    },
+    "جامعة": {
+      "ar": "جَامِعَة",
+      "tr": "jāmiʿa",
+      "en": "university"
+    },
+    "قرية": {
+      "ar": "قَرْيَة",
+      "tr": "qarya",
+      "en": "village"
+    },
+    "طريق": {
+      "ar": "طَرِيق",
+      "tr": "ṭarīq",
+      "en": "road"
+    },
+    "بلد": {
+      "ar": "بَلَد",
+      "tr": "balad",
+      "en": "country, town"
+    },
+    "كتاب": {
+      "ar": "كِتَاب",
+      "tr": "kitāb",
+      "en": "book"
+    },
+    "قلم": {
+      "ar": "قَلَم",
+      "tr": "qalam",
+      "en": "pen"
+    },
+    "دفتر": {
+      "ar": "دَفْتَر",
+      "tr": "daftar",
+      "en": "notebook"
+    },
+    "ورقة": {
+      "ar": "وَرَقَة",
+      "tr": "waraqa",
+      "en": "sheet of paper"
+    },
+    "درس": {
+      "ar": "دَرْس",
+      "tr": "dars",
+      "en": "lesson"
+    },
+    "معلم": {
+      "ar": "مُعَلِّم",
+      "tr": "muʿallim",
+      "en": "teacher"
+    },
+    "طالب": {
+      "ar": "طَالِب",
+      "tr": "ṭālib",
+      "en": "student"
+    },
+    "صف": {
+      "ar": "صَفّ",
+      "tr": "ṣaff",
+      "en": "class"
+    },
+    "امتحان": {
+      "ar": "اِمْتِحَان",
+      "tr": "imtiḥān",
+      "en": "exam"
+    },
+    "سؤال": {
+      "ar": "سُؤَال",
+      "tr": "suʾāl",
+      "en": "question"
+    },
+    "جواب": {
+      "ar": "جَوَاب",
+      "tr": "jawāb",
+      "en": "answer"
+    },
+    "لغة": {
+      "ar": "لُغَة",
+      "tr": "lugha",
+      "en": "language"
+    },
+    "كلمة": {
+      "ar": "كَلِمَة",
+      "tr": "kalima",
+      "en": "word"
+    },
+    "حرف": {
+      "ar": "حَرْف",
+      "tr": "ḥarf",
+      "en": "letter"
+    },
+    "رقم": {
+      "ar": "رَقَم",
+      "tr": "raqam",
+      "en": "number"
+    },
+    "علم": {
+      "ar": "عِلْم",
+      "tr": "ʿilm",
+      "en": "knowledge, science"
+    },
+    "عمل": {
+      "ar": "عَمَل",
+      "tr": "ʿamal",
+      "en": "work"
+    },
+    "مهندس": {
+      "ar": "مُهَنْدِس",
+      "tr": "muhandis",
+      "en": "engineer"
+    },
+    "طبيب": {
+      "ar": "طَبِيب",
+      "tr": "ṭabīb",
+      "en": "doctor"
+    },
+    "مدرس": {
+      "ar": "مُدَرِّس",
+      "tr": "mudarris",
+      "en": "teacher"
+    },
+    "تاجر": {
+      "ar": "تَاجِر",
+      "tr": "tājir",
+      "en": "merchant"
+    },
+    "فلاح": {
+      "ar": "فَلَّاح",
+      "tr": "fallāḥ",
+      "en": "farmer"
+    },
+    "سائق": {
+      "ar": "سَائِق",
+      "tr": "sāʾiq",
+      "en": "driver"
+    },
+    "كاتب": {
+      "ar": "كَاتِب",
+      "tr": "kātib",
+      "en": "writer"
+    },
+    "مدير": {
+      "ar": "مُدِير",
+      "tr": "mudīr",
+      "en": "manager"
+    },
+    "شركة": {
+      "ar": "شَرِكَة",
+      "tr": "sharika",
+      "en": "company"
+    },
+    "مال": {
+      "ar": "مَال",
+      "tr": "māl",
+      "en": "money"
+    },
+    "مهنة": {
+      "ar": "مِهْنَة",
+      "tr": "mihna",
+      "en": "profession"
+    },
+    "شمس": {
+      "ar": "شَمْس",
+      "tr": "shams",
+      "en": "sun"
+    },
+    "قمر": {
+      "ar": "قَمَر",
+      "tr": "qamar",
+      "en": "moon"
+    },
+    "نجم": {
+      "ar": "نَجْم",
+      "tr": "najm",
+      "en": "star"
+    },
+    "سماء": {
+      "ar": "سَمَاء",
+      "tr": "samāʾ",
+      "en": "sky"
+    },
+    "أرض": {
+      "ar": "أَرْض",
+      "tr": "arḍ",
+      "en": "earth, ground"
+    },
+    "بحر": {
+      "ar": "بَحْر",
+      "tr": "baḥr",
+      "en": "sea"
+    },
+    "نهر": {
+      "ar": "نَهْر",
+      "tr": "nahr",
+      "en": "river"
+    },
+    "جبل": {
+      "ar": "جَبَل",
+      "tr": "jabal",
+      "en": "mountain"
+    },
+    "شجرة": {
+      "ar": "شَجَرَة",
+      "tr": "shajara",
+      "en": "tree"
+    },
+    "وردة": {
+      "ar": "وَرْدَة",
+      "tr": "warda",
+      "en": "flower, rose"
+    },
+    "مطر": {
+      "ar": "مَطَر",
+      "tr": "maṭar",
+      "en": "rain"
+    },
+    "ريح": {
+      "ar": "رِيح",
+      "tr": "rīḥ",
+      "en": "wind"
+    },
+    "نار": {
+      "ar": "نَار",
+      "tr": "nār",
+      "en": "fire"
+    },
+    "ثلج": {
+      "ar": "ثَلْج",
+      "tr": "thalj",
+      "en": "snow, ice"
+    },
+    "صحراء": {
+      "ar": "صَحْرَاء",
+      "tr": "ṣaḥrāʾ",
+      "en": "desert"
+    },
+    "سحاب": {
+      "ar": "سَحَاب",
+      "tr": "saḥāb",
+      "en": "clouds"
+    },
+    "حجر": {
+      "ar": "حَجَر",
+      "tr": "ḥajar",
+      "en": "stone"
+    },
+    "قط": {
+      "ar": "قِطّ",
+      "tr": "qiṭṭ",
+      "en": "cat"
+    },
+    "كلب": {
+      "ar": "كَلْب",
+      "tr": "kalb",
+      "en": "dog"
+    },
+    "حصان": {
+      "ar": "حِصَان",
+      "tr": "ḥiṣān",
+      "en": "horse"
+    },
+    "جمل": {
+      "ar": "جَمَل",
+      "tr": "jamal",
+      "en": "camel"
+    },
+    "بقرة": {
+      "ar": "بَقَرَة",
+      "tr": "baqara",
+      "en": "cow"
+    },
+    "خروف": {
+      "ar": "خَرُوف",
+      "tr": "kharūf",
+      "en": "sheep"
+    },
+    "أسد": {
+      "ar": "أَسَد",
+      "tr": "asad",
+      "en": "lion"
+    },
+    "طير": {
+      "ar": "طَيْر",
+      "tr": "ṭayr",
+      "en": "bird"
+    },
+    "سمكة": {
+      "ar": "سَمَكَة",
+      "tr": "samaka",
+      "en": "a fish"
+    },
+    "ذئب": {
+      "ar": "ذِئْب",
+      "tr": "dhiʾb",
+      "en": "wolf"
+    },
+    "نملة": {
+      "ar": "نَمْلَة",
+      "tr": "namla",
+      "en": "ant"
+    },
+    "دجاجة": {
+      "ar": "دَجَاجَة",
+      "tr": "dajāja",
+      "en": "hen"
+    },
+    "حمار": {
+      "ar": "حِمَار",
+      "tr": "ḥimār",
+      "en": "donkey"
+    },
+    "بطة": {
+      "ar": "بَطَّة",
+      "tr": "baṭṭa",
+      "en": "duck"
+    },
+    "قميص": {
+      "ar": "قَمِيص",
+      "tr": "qamīṣ",
+      "en": "shirt"
+    },
+    "حذاء": {
+      "ar": "حِذَاء",
+      "tr": "ḥidhāʾ",
+      "en": "shoe"
+    },
+    "ثوب": {
+      "ar": "ثَوْب",
+      "tr": "thawb",
+      "en": "garment"
+    },
+    "معطف": {
+      "ar": "مِعْطَف",
+      "tr": "miʿṭaf",
+      "en": "coat"
+    },
+    "قبعة": {
+      "ar": "قُبَّعَة",
+      "tr": "qubbaʿa",
+      "en": "hat"
+    },
+    "جورب": {
+      "ar": "جَوْرَب",
+      "tr": "jawrab",
+      "en": "sock"
+    },
+    "حزام": {
+      "ar": "حِزَام",
+      "tr": "ḥizām",
+      "en": "belt"
+    },
+    "فستان": {
+      "ar": "فُسْتَان",
+      "tr": "fustān",
+      "en": "dress"
+    },
+    "نظارة": {
+      "ar": "نَظَّارَة",
+      "tr": "naẓẓāra",
+      "en": "glasses"
+    },
+    "ملابس": {
+      "ar": "مَلَابِس",
+      "tr": "malābis",
+      "en": "clothes"
+    },
+    "يوم": {
+      "ar": "يَوْم",
+      "tr": "yawm",
+      "en": "day"
+    },
+    "ليل": {
+      "ar": "لَيْل",
+      "tr": "layl",
+      "en": "night"
+    },
+    "صباح": {
+      "ar": "صَبَاح",
+      "tr": "ṣabāḥ",
+      "en": "morning"
+    },
+    "مساء": {
+      "ar": "مَسَاء",
+      "tr": "masāʾ",
+      "en": "evening"
+    },
+    "أسبوع": {
+      "ar": "أُسْبُوع",
+      "tr": "usbūʿ",
+      "en": "week"
+    },
+    "شهر": {
+      "ar": "شَهْر",
+      "tr": "shahr",
+      "en": "month"
+    },
+    "سنة": {
+      "ar": "سَنَة",
+      "tr": "sana",
+      "en": "year"
+    },
+    "ساعة": {
+      "ar": "سَاعَة",
+      "tr": "sāʿa",
+      "en": "hour, clock"
+    },
+    "دقيقة": {
+      "ar": "دَقِيقَة",
+      "tr": "daqīqa",
+      "en": "minute"
+    },
+    "أمس": {
+      "ar": "أَمْس",
+      "tr": "ams",
+      "en": "yesterday"
+    },
+    "وقت": {
+      "ar": "وَقْت",
+      "tr": "waqt",
+      "en": "time"
+    },
+    "فجر": {
+      "ar": "فَجْر",
+      "tr": "fajr",
+      "en": "dawn"
+    },
+    "سفر": {
+      "ar": "سَفَر",
+      "tr": "safar",
+      "en": "travel"
+    },
+    "طائرة": {
+      "ar": "طَائِرَة",
+      "tr": "ṭāʾira",
+      "en": "aeroplane"
+    },
+    "سيارة": {
+      "ar": "سَيَّارَة",
+      "tr": "sayyāra",
+      "en": "car"
+    },
+    "قطار": {
+      "ar": "قِطَار",
+      "tr": "qiṭār",
+      "en": "train"
+    },
+    "سفينة": {
+      "ar": "سَفِينَة",
+      "tr": "safīna",
+      "en": "ship"
+    },
+    "دراجة": {
+      "ar": "دَرَّاجَة",
+      "tr": "darrāja",
+      "en": "bicycle"
+    },
+    "حقيبة": {
+      "ar": "حَقِيبَة",
+      "tr": "ḥaqība",
+      "en": "bag, suitcase"
+    },
+    "تذكرة": {
+      "ar": "تَذْكِرَة",
+      "tr": "tadhkira",
+      "en": "ticket"
+    },
+    "جواز": {
+      "ar": "جَوَاز",
+      "tr": "jawāz",
+      "en": "passport"
+    },
+    "رحلة": {
+      "ar": "رِحْلَة",
+      "tr": "riḥla",
+      "en": "trip"
+    },
+    "كبير": {
+      "ar": "كَبِير",
+      "tr": "kabīr",
+      "en": "big"
+    },
+    "صغير": {
+      "ar": "صَغِير",
+      "tr": "ṣaghīr",
+      "en": "small"
+    },
+    "طويل": {
+      "ar": "طَوِيل",
+      "tr": "ṭawīl",
+      "en": "tall, long"
+    },
+    "قصير": {
+      "ar": "قَصِير",
+      "tr": "qaṣīr",
+      "en": "short"
+    },
+    "جديد": {
+      "ar": "جَدِيد",
+      "tr": "jadīd",
+      "en": "new"
+    },
+    "قديم": {
+      "ar": "قَدِيم",
+      "tr": "qadīm",
+      "en": "old"
+    },
+    "جميل": {
+      "ar": "جَمِيل",
+      "tr": "jamīl",
+      "en": "beautiful"
+    },
+    "سهل": {
+      "ar": "سَهْل",
+      "tr": "sahl",
+      "en": "easy"
+    },
+    "صعب": {
+      "ar": "صَعْب",
+      "tr": "ṣaʿb",
+      "en": "difficult"
+    },
+    "سريع": {
+      "ar": "سَرِيع",
+      "tr": "sarīʿ",
+      "en": "fast"
+    },
+    "حار": {
+      "ar": "حَارّ",
+      "tr": "ḥārr",
+      "en": "hot"
+    },
+    "بارد": {
+      "ar": "بَارِد",
+      "tr": "bārid",
+      "en": "cold"
+    },
+    "غني": {
+      "ar": "غَنِيّ",
+      "tr": "ghanī",
+      "en": "rich"
+    },
+    "فقير": {
+      "ar": "فَقِير",
+      "tr": "faqīr",
+      "en": "poor"
+    },
+    "قوي": {
+      "ar": "قَوِيّ",
+      "tr": "qawī",
+      "en": "strong"
+    },
+    "ضعيف": {
+      "ar": "ضَعِيف",
+      "tr": "ḍaʿīf",
+      "en": "weak"
+    },
+    "نظيف": {
+      "ar": "نَظِيف",
+      "tr": "naẓīf",
+      "en": "clean"
+    },
+    "بعيد": {
+      "ar": "بَعِيد",
+      "tr": "baʿīd",
+      "en": "far"
+    },
+    "قريب": {
+      "ar": "قَرِيب",
+      "tr": "qarīb",
+      "en": "near"
+    },
+    "كتب": {
+      "ar": "كَتَبَ",
+      "tr": "kataba",
+      "en": "he wrote"
+    },
+    "أكل": {
+      "ar": "أَكَلَ",
+      "tr": "akala",
+      "en": "he ate"
+    },
+    "شرب": {
+      "ar": "شَرِبَ",
+      "tr": "shariba",
+      "en": "he drank"
+    },
+    "ذهب": {
+      "ar": "ذَهَبَ",
+      "tr": "dhahaba",
+      "en": "he went"
+    },
+    "جلس": {
+      "ar": "جَلَسَ",
+      "tr": "jalasa",
+      "en": "he sat"
+    },
+    "فتح": {
+      "ar": "فَتَحَ",
+      "tr": "fataḥa",
+      "en": "he opened"
+    },
+    "سمع": {
+      "ar": "سَمِعَ",
+      "tr": "samiʿa",
+      "en": "he heard"
+    },
+    "نظر": {
+      "ar": "نَظَرَ",
+      "tr": "naẓara",
+      "en": "he looked"
+    },
+    "لعب": {
+      "ar": "لَعِبَ",
+      "tr": "laʿiba",
+      "en": "he played"
+    },
+    "خرج": {
+      "ar": "خَرَجَ",
+      "tr": "kharaja",
+      "en": "he went out"
+    },
+    "دخل": {
+      "ar": "دَخَلَ",
+      "tr": "dakhala",
+      "en": "he entered"
+    },
+    "فهم": {
+      "ar": "فَهِمَ",
+      "tr": "fahima",
+      "en": "he understood"
+    },
+    "وصل": {
+      "ar": "وَصَلَ",
+      "tr": "waṣala",
+      "en": "he arrived"
+    },
+    "رجع": {
+      "ar": "رَجَعَ",
+      "tr": "rajaʿa",
+      "en": "he returned"
+    },
+    "أحمر": {
+      "ar": "أَحْمَر",
+      "tr": "aḥmar",
+      "en": "red"
+    },
+    "أزرق": {
+      "ar": "أَزْرَق",
+      "tr": "azraq",
+      "en": "blue"
+    },
+    "أخضر": {
+      "ar": "أَخْضَر",
+      "tr": "akhḍar",
+      "en": "green"
+    },
+    "أصفر": {
+      "ar": "أَصْفَر",
+      "tr": "aṣfar",
+      "en": "yellow"
+    },
+    "أبيض": {
+      "ar": "أَبْيَض",
+      "tr": "abyaḍ",
+      "en": "white"
+    },
+    "أسود": {
+      "ar": "أَسْوَد",
+      "tr": "aswad",
+      "en": "black"
+    },
+    "بني": {
+      "ar": "بُنِّيّ",
+      "tr": "bunnī",
+      "en": "brown"
+    },
+    "لون": {
+      "ar": "لَوْن",
+      "tr": "lawn",
+      "en": "colour"
+    },
+    "نهار": {
+      "ar": "نَهَار",
+      "tr": "nahār",
+      "en": "daytime"
+    },
+    "فوق": {
+      "ar": "فَوْق",
+      "tr": "fawq",
+      "en": "above"
+    },
+    "تحت": {
+      "ar": "تَحْت",
+      "tr": "taḥt",
+      "en": "below"
+    },
+    "يمين": {
+      "ar": "يَمِين",
+      "tr": "yamīn",
+      "en": "right"
+    },
+    "يسار": {
+      "ar": "يَسَار",
+      "tr": "yasār",
+      "en": "left"
+    },
+    "بطيء": {
+      "ar": "بَطِيء",
+      "tr": "baṭīʾ",
+      "en": "slow"
+    },
+    "وسخ": {
+      "ar": "وَسِخ",
+      "tr": "wasikh",
+      "en": "dirty"
+    },
+    "كثير": {
+      "ar": "كَثِير",
+      "tr": "kathīr",
+      "en": "many"
+    },
+    "قليل": {
+      "ar": "قَلِيل",
+      "tr": "qalīl",
+      "en": "few"
+    },
+    "أمام": {
+      "ar": "أَمَام",
+      "tr": "amām",
+      "en": "in front of"
+    },
+    "خلف": {
+      "ar": "خَلْف",
+      "tr": "khalf",
+      "en": "behind"
+    },
+    "داخل": {
+      "ar": "دَاخِل",
+      "tr": "dākhil",
+      "en": "inside"
+    },
+    "خارج": {
+      "ar": "خَارِج",
+      "tr": "khārij",
+      "en": "outside"
+    },
+    "أول": {
+      "ar": "أَوَّل",
+      "tr": "awwal",
+      "en": "first"
+    },
+    "آخر": {
+      "ar": "آخِر",
+      "tr": "ākhir",
+      "en": "last"
+    },
+    "خفيف": {
+      "ar": "خَفِيف",
+      "tr": "khafīf",
+      "en": "light"
+    },
+    "ثقيل": {
+      "ar": "ثَقِيل",
+      "tr": "thaqīl",
+      "en": "heavy"
+    },
+    "شرق": {
+      "ar": "شَرْق",
+      "tr": "sharq",
+      "en": "east"
+    },
+    "غرب": {
+      "ar": "غَرْب",
+      "tr": "gharb",
+      "en": "west"
+    },
+    "شمال": {
+      "ar": "شَمَال",
+      "tr": "shamāl",
+      "en": "north"
+    },
+    "جنوب": {
+      "ar": "جَنُوب",
+      "tr": "janūb",
+      "en": "south"
+    },
+    "قبيح": {
+      "ar": "قَبِيح",
+      "tr": "qabīḥ",
+      "en": "ugly"
+    },
+    "مفتوح": {
+      "ar": "مَفْتُوح",
+      "tr": "maftūḥ",
+      "en": "open"
+    },
+    "مغلق": {
+      "ar": "مُغْلَق",
+      "tr": "mughlaq",
+      "en": "closed"
+    },
+    "فرح": {
+      "ar": "فَرَح",
+      "tr": "faraḥ",
+      "en": "joy"
+    },
+    "حزن": {
+      "ar": "حُزْن",
+      "tr": "ḥuzn",
+      "en": "sorrow"
+    },
+    "حرب": {
+      "ar": "حَرْب",
+      "tr": "ḥarb",
+      "en": "war"
+    },
+    "ممتلئ": {
+      "ar": "مُمْتَلِئ",
+      "tr": "mumtaliʾ",
+      "en": "full"
+    },
+    "فارغ": {
+      "ar": "فَارِغ",
+      "tr": "fārigh",
+      "en": "empty"
+    },
+    "صحيح": {
+      "ar": "صَحِيح",
+      "tr": "ṣaḥīḥ",
+      "en": "correct"
+    },
+    "خطأ": {
+      "ar": "خَطَأ",
+      "tr": "khaṭaʾ",
+      "en": "wrong"
+    },
+    "حلو": {
+      "ar": "حُلْو",
+      "tr": "ḥulw",
+      "en": "sweet"
+    },
+    "مر": {
+      "ar": "مُرّ",
+      "tr": "murr",
+      "en": "bitter"
+    },
+    "واسع": {
+      "ar": "وَاسِع",
+      "tr": "wāsiʿ",
+      "en": "wide"
+    },
+    "ضيق": {
+      "ar": "ضَيِّق",
+      "tr": "ḍayyiq",
+      "en": "narrow"
+    },
+    "مرتفع": {
+      "ar": "مُرْتَفِع",
+      "tr": "murtafiʿ",
+      "en": "high"
+    },
+    "منخفض": {
+      "ar": "مُنْخَفِض",
+      "tr": "munkhafiḍ",
+      "en": "low"
+    },
+    "حي": {
+      "ar": "حَيّ",
+      "tr": "ḥayy",
+      "en": "alive"
+    },
+    "ميت": {
+      "ar": "مَيِّت",
+      "tr": "mayyit",
+      "en": "dead"
+    },
+    "حب": {
+      "ar": "حُبّ",
+      "tr": "ḥubb",
+      "en": "love"
+    },
+    "كره": {
+      "ar": "كُرْه",
+      "tr": "kurh",
+      "en": "hatred"
+    },
+    "زيادة": {
+      "ar": "زِيَادَة",
+      "tr": "ziyāda",
+      "en": "increase"
+    },
+    "نقصان": {
+      "ar": "نُقْصَان",
+      "tr": "nuqṣān",
+      "en": "decrease"
+    },
+    "أقلام": {
+      "ar": "أَقْلَام",
+      "tr": "aqlām",
+      "en": "pens"
+    },
+    "بيوت": {
+      "ar": "بُيُوت",
+      "tr": "buyūt",
+      "en": "houses"
+    },
+    "أولاد": {
+      "ar": "أَوْلَاد",
+      "tr": "awlād",
+      "en": "boys"
+    },
+    "بنات": {
+      "ar": "بَنَات",
+      "tr": "banāt",
+      "en": "girls"
+    },
+    "أبواب": {
+      "ar": "أَبْوَاب",
+      "tr": "abwāb",
+      "en": "doors"
+    },
+    "أيام": {
+      "ar": "أَيَّام",
+      "tr": "ayyām",
+      "en": "days"
+    },
+    "قطط": {
+      "ar": "قِطَط",
+      "tr": "qiṭaṭ",
+      "en": "cats"
+    },
+    "كلاب": {
+      "ar": "كِلَاب",
+      "tr": "kilāb",
+      "en": "dogs"
+    },
+    "عيون": {
+      "ar": "عُيُون",
+      "tr": "ʿuyūn",
+      "en": "eyes"
+    },
+    "ساعات": {
+      "ar": "سَاعَات",
+      "tr": "sāʿāt",
+      "en": "hours"
+    },
+    "لغات": {
+      "ar": "لُغَات",
+      "tr": "lughāt",
+      "en": "languages"
+    },
+    "رجال": {
+      "ar": "رِجَال",
+      "tr": "rijāl",
+      "en": "men"
+    },
+    "طلاب": {
+      "ar": "طُلَّاب",
+      "tr": "ṭullāb",
+      "en": "students"
+    },
+    "مدارس": {
+      "ar": "مَدَارِس",
+      "tr": "madāris",
+      "en": "schools"
+    },
+    "مدن": {
+      "ar": "مُدُن",
+      "tr": "mudun",
+      "en": "cities"
+    },
+    "أشجار": {
+      "ar": "أَشْجَار",
+      "tr": "ashjār",
+      "en": "trees"
+    },
+    "حروف": {
+      "ar": "حُرُوف",
+      "tr": "ḥurūf",
+      "en": "letters"
+    },
+    "كلمات": {
+      "ar": "كَلِمَات",
+      "tr": "kalimāt",
+      "en": "words"
+    },
+    "دروس": {
+      "ar": "دُرُوس",
+      "tr": "durūs",
+      "en": "lessons"
+    },
+    "جبال": {
+      "ar": "جِبَال",
+      "tr": "jibāl",
+      "en": "mountains"
+    },
+    "قلوب": {
+      "ar": "قُلُوب",
+      "tr": "qulūb",
+      "en": "hearts"
+    },
+    "نجوم": {
+      "ar": "نُجُوم",
+      "tr": "nujūm",
+      "en": "stars"
+    },
+    "جمال": {
+      "ar": "جِمَال",
+      "tr": "jimāl",
+      "en": "camels"
+    },
+    "مفاتيح": {
+      "ar": "مَفَاتِيح",
+      "tr": "mafātīḥ",
+      "en": "keys"
+    },
+    "أصدقاء": {
+      "ar": "أَصْدِقَاء",
+      "tr": "aṣdiqāʾ",
+      "en": "friends"
+    },
+    "أطباء": {
+      "ar": "أَطِبَّاء",
+      "tr": "aṭibbāʾ",
+      "en": "doctors"
+    },
+    "معلمون": {
+      "ar": "مُعَلِّمُون",
+      "tr": "muʿallimūn",
+      "en": "teachers"
+    },
+    "رؤوس": {
+      "ar": "رُؤُوس",
+      "tr": "ruʾūs",
+      "en": "heads"
+    },
+    "أنهار": {
+      "ar": "أَنْهَار",
+      "tr": "anhār",
+      "en": "rivers"
+    },
+    "طيور": {
+      "ar": "طُيُور",
+      "tr": "ṭuyūr",
+      "en": "birds"
+    },
+    "بحار": {
+      "ar": "بِحَار",
+      "tr": "biḥār",
+      "en": "seas"
+    },
+    "سنوات": {
+      "ar": "سَنَوَات",
+      "tr": "sanawāt",
+      "en": "years"
+    },
+    "أبقار": {
+      "ar": "أَبْقَار",
+      "tr": "abqār",
+      "en": "cows"
+    },
+    "شوارع": {
+      "ar": "شَوَارِع",
+      "tr": "shawāriʿ",
+      "en": "streets"
+    },
+    "قمصان": {
+      "ar": "قُمْصَان",
+      "tr": "qumṣān",
+      "en": "shirts"
+    },
+    "منزل": {
+      "ar": "مَنْزِل",
+      "tr": "manzil",
+      "en": "home, house"
+    },
+    "شغل": {
+      "ar": "شُغْل",
+      "tr": "shughl",
+      "en": "work"
+    },
+    "صبي": {
+      "ar": "صَبِيّ",
+      "tr": "ṣabī",
+      "en": "boy, lad"
+    },
+    "نقود": {
+      "ar": "نُقُود",
+      "tr": "nuqūd",
+      "en": "money"
+    },
+    "ضخم": {
+      "ar": "ضَخْم",
+      "tr": "ḍakhm",
+      "en": "huge"
+    },
+    "سبيل": {
+      "ar": "سَبِيل",
+      "tr": "sabīl",
+      "en": "way, path"
+    },
+    "حسن": {
+      "ar": "حَسَن",
+      "tr": "ḥasan",
+      "en": "fine, good"
+    },
+    "سعيد": {
+      "ar": "سَعِيد",
+      "tr": "saʿīd",
+      "en": "happy"
+    },
+    "مسرور": {
+      "ar": "مَسْرُور",
+      "tr": "masrūr",
+      "en": "glad"
+    },
+    "عتيق": {
+      "ar": "عَتِيق",
+      "tr": "ʿatīq",
+      "en": "ancient"
+    },
+    "سيدة": {
+      "ar": "سَيِّدَة",
+      "tr": "sayyida",
+      "en": "lady"
+    },
+    "عاجل": {
+      "ar": "عَاجِل",
+      "tr": "ʿājil",
+      "en": "urgent, swift"
+    },
+    "شديد": {
+      "ar": "شَدِيد",
+      "tr": "shadīd",
+      "en": "intense, strong"
+    },
+    "كلام": {
+      "ar": "كَلَام",
+      "tr": "kalām",
+      "en": "speech"
+    },
+    "حديث": {
+      "ar": "حَدِيث",
+      "tr": "ḥadīth",
+      "en": "talk"
+    },
+    "عسير": {
+      "ar": "عَسِير",
+      "tr": "ʿasīr",
+      "en": "hard"
+    },
+    "يم": {
+      "ar": "يَمّ",
+      "tr": "yamm",
+      "en": "sea"
+    },
+    "بدأ": {
+      "ar": "بَدَأَ",
+      "tr": "badaʾa",
+      "en": "he began"
+    },
+    "شرع": {
+      "ar": "شَرَعَ",
+      "tr": "sharaʿa",
+      "en": "he set about"
+    },
+    "شاهد": {
+      "ar": "شَاهَدَ",
+      "tr": "shāhada",
+      "en": "he watched"
+    },
+    "غضب": {
+      "ar": "غَضَب",
+      "tr": "ghaḍab",
+      "en": "anger"
+    },
+    "سخط": {
+      "ar": "سَخَط",
+      "tr": "sakhaṭ",
+      "en": "wrath"
+    },
+    "خوف": {
+      "ar": "خَوْف",
+      "tr": "khawf",
+      "en": "fear"
+    },
+    "فزع": {
+      "ar": "فَزَع",
+      "tr": "fazaʿ",
+      "en": "dread"
+    },
+    "معرفة": {
+      "ar": "مَعْرِفَة",
+      "tr": "maʿrifa",
+      "en": "knowledge"
+    },
+    "دان": {
+      "ar": "دَانٍ",
+      "tr": "dānin",
+      "en": "close by"
+    },
+    "سرور": {
+      "ar": "سُرُور",
+      "tr": "surūr",
+      "en": "delight"
+    },
+    "بهجة": {
+      "ar": "بَهْجَة",
+      "tr": "bahja",
+      "en": "joy"
+    },
+    "هنا": {
+      "ar": "هُنَا",
+      "tr": "hunā",
+      "en": "here"
+    },
+    "هناك": {
+      "ar": "هُنَاك",
+      "tr": "hunāk",
+      "en": "there"
+    },
+    "كل": {
+      "ar": "كُلّ",
+      "tr": "kull",
+      "en": "all"
+    },
+    "بعض": {
+      "ar": "بَعْض",
+      "tr": "baʿḍ",
+      "en": "some"
+    },
+    "مالح": {
+      "ar": "مَالِح",
+      "tr": "māliḥ",
+      "en": "salty"
+    },
+    "بداية": {
+      "ar": "بِدَايَة",
+      "tr": "bidāya",
+      "en": "beginning"
+    },
+    "نهاية": {
+      "ar": "نِهَايَة",
+      "tr": "nihāya",
+      "en": "end"
+    },
+    "ظاهر": {
+      "ar": "ظَاهِر",
+      "tr": "ẓāhir",
+      "en": "visible"
+    },
+    "خفي": {
+      "ar": "خَفِيّ",
+      "tr": "khafī",
+      "en": "hidden"
+    },
+    "عام": {
+      "ar": "عَامّ",
+      "tr": "ʿāmm",
+      "en": "general"
+    },
+    "خاص": {
+      "ar": "خَاصّ",
+      "tr": "khāṣṣ",
+      "en": "particular"
+    },
+    "زائد": {
+      "ar": "زَائِد",
+      "tr": "zāʾid",
+      "en": "surplus"
+    },
+    "ناقص": {
+      "ar": "نَاقِص",
+      "tr": "nāqiṣ",
+      "en": "deficient"
+    },
+    "نجاح": {
+      "ar": "نَجَاح",
+      "tr": "najāḥ",
+      "en": "success"
+    },
+    "فشل": {
+      "ar": "فَشَل",
+      "tr": "fashal",
+      "en": "failure"
+    },
+    "قبول": {
+      "ar": "قَبُول",
+      "tr": "qabūl",
+      "en": "acceptance"
+    },
+    "رفض": {
+      "ar": "رَفْض",
+      "tr": "rafḍ",
+      "en": "refusal"
+    },
+    "يقين": {
+      "ar": "يَقِين",
+      "tr": "yaqīn",
+      "en": "certainty"
+    },
+    "شك": {
+      "ar": "شَكّ",
+      "tr": "shakk",
+      "en": "doubt"
+    },
+    "تقدم": {
+      "ar": "تَقَدُّم",
+      "tr": "taqaddum",
+      "en": "advance"
+    },
+    "تأخر": {
+      "ar": "تَأَخُّر",
+      "tr": "taʾakhkhur",
+      "en": "delay"
+    },
+    "أمهات": {
+      "ar": "أُمَّهَات",
+      "tr": "ummahāt",
+      "en": "mothers"
+    },
+    "آباء": {
+      "ar": "آبَاء",
+      "tr": "ābāʾ",
+      "en": "fathers"
+    },
+    "أوراق": {
+      "ar": "أَوْرَاق",
+      "tr": "awrāq",
+      "en": "papers"
+    },
+    "شهور": {
+      "ar": "شُهُور",
+      "tr": "shuhūr",
+      "en": "months"
+    },
+    "أطفال": {
+      "ar": "أَطْفَال",
+      "tr": "aṭfāl",
+      "en": "children"
+    },
+    "غرف": {
+      "ar": "غُرَف",
+      "tr": "ghuraf",
+      "en": "rooms"
+    },
+    "نوافذ": {
+      "ar": "نَوَافِذ",
+      "tr": "nawāfidh",
+      "en": "windows"
+    },
+    "أسئلة": {
+      "ar": "أَسْئِلَة",
+      "tr": "asʾila",
+      "en": "questions"
+    },
+    "كراسي": {
+      "ar": "كَرَاسِي",
+      "tr": "karāsī",
+      "en": "chairs"
+    },
+    "دكاكين": {
+      "ar": "دَكَاكِين",
+      "tr": "dakākīn",
+      "en": "shops"
+    },
+    "فنادق": {
+      "ar": "فَنَادِق",
+      "tr": "fanādiq",
+      "en": "hotels"
+    },
+    "متاحف": {
+      "ar": "مَتَاحِف",
+      "tr": "matāḥif",
+      "en": "museums"
+    },
+    "حجرة": {
+      "ar": "حُجْرَة",
+      "tr": "ḥujra",
+      "en": "room"
+    },
+    "متجر": {
+      "ar": "مَتْجَر",
+      "tr": "matjar",
+      "en": "store"
+    },
+    "زمن": {
+      "ar": "زَمَن",
+      "tr": "zaman",
+      "en": "time"
+    },
+    "قول": {
+      "ar": "قَوْل",
+      "tr": "qawl",
+      "en": "saying"
+    },
+    "جميع": {
+      "ar": "جَمِيع",
+      "tr": "jamīʿ",
+      "en": "all"
+    },
+    "عربة": {
+      "ar": "عَرَبَة",
+      "tr": "ʿaraba",
+      "en": "vehicle"
+    },
+    "مدخل": {
+      "ar": "مَدْخَل",
+      "tr": "madkhal",
+      "en": "entrance"
+    },
+    "مريض": {
+      "ar": "مَرِيض",
+      "tr": "marīḍ",
+      "en": "ill"
+    },
+    "سقيم": {
+      "ar": "سَقِيم",
+      "tr": "saqīm",
+      "en": "ailing"
+    },
+    "ذكي": {
+      "ar": "ذَكِيّ",
+      "tr": "dhakī",
+      "en": "clever"
+    },
+    "فطن": {
+      "ar": "فَطِن",
+      "tr": "faṭin",
+      "en": "sharp"
+    },
+    "كريم": {
+      "ar": "كَرِيم",
+      "tr": "karīm",
+      "en": "generous"
+    },
+    "جواد": {
+      "ar": "جَوَاد",
+      "tr": "jawād",
+      "en": "openhanded"
+    },
+    "شجاع": {
+      "ar": "شُجَاع",
+      "tr": "shujāʿ",
+      "en": "brave"
+    },
+    "باسل": {
+      "ar": "بَاسِل",
+      "tr": "bāsil",
+      "en": "valiant"
+    },
+    "حزين": {
+      "ar": "حَزِين",
+      "tr": "ḥazīn",
+      "en": "sad"
+    },
+    "كئيب": {
+      "ar": "كَئِيب",
+      "tr": "kaʾīb",
+      "en": "gloomy"
+    },
+    "ثمين": {
+      "ar": "ثَمِين",
+      "tr": "thamīn",
+      "en": "valuable"
+    },
+    "نفيس": {
+      "ar": "نَفِيس",
+      "tr": "nafīs",
+      "en": "precious"
+    },
+    "رحب": {
+      "ar": "رَحْب",
+      "tr": "raḥb",
+      "en": "roomy"
+    },
+    "متين": {
+      "ar": "مَتِين",
+      "tr": "matīn",
+      "en": "sturdy"
+    },
+    "صلب": {
+      "ar": "صُلْب",
+      "tr": "ṣulb",
+      "en": "solid"
+    },
+    "عاد": {
+      "ar": "عَادَ",
+      "tr": "ʿāda",
+      "en": "he returned"
+    },
+    "أخذ": {
+      "ar": "أَخَذَ",
+      "tr": "akhadha",
+      "en": "he took"
+    },
+    "تناول": {
+      "ar": "تَنَاوَلَ",
+      "tr": "tanāwala",
+      "en": "he took up"
+    },
+    "نام": {
+      "ar": "نَامَ",
+      "tr": "nāma",
+      "en": "he slept"
+    },
+    "رقد": {
+      "ar": "رَقَدَ",
+      "tr": "raqada",
+      "en": "he lay down"
+    },
+    "سكن": {
+      "ar": "سَكَنَ",
+      "tr": "sakana",
+      "en": "he dwelt"
+    },
+    "أقام": {
+      "ar": "أَقَامَ",
+      "tr": "aqāma",
+      "en": "he resided"
+    },
+    "بحث": {
+      "ar": "بَحَثَ",
+      "tr": "baḥatha",
+      "en": "he searched"
+    },
+    "فتش": {
+      "ar": "فَتَّشَ",
+      "tr": "fattasha",
+      "en": "he inspected"
+    },
+    "تعب": {
+      "ar": "تَعِبَ",
+      "tr": "taʿiba",
+      "en": "he grew tired"
+    },
+    "أعيا": {
+      "ar": "أَعْيَا",
+      "tr": "aʿyā",
+      "en": "he was worn out"
+    },
+    "خاف": {
+      "ar": "خَافَ",
+      "tr": "khāfa",
+      "en": "he feared"
+    },
+    "أتم": {
+      "ar": "أَتَمَّ",
+      "tr": "atamma",
+      "en": "he completed"
+    },
+    "أنهى": {
+      "ar": "أَنْهَى",
+      "tr": "anhā",
+      "en": "he finished"
+    },
+    "بخر": {
+      "ar": "بَخْر",
+      "tr": "bakhr",
+      "en": "vapour, steam"
+    },
+    "بهر": {
+      "ar": "بَهَرَ",
+      "tr": "bahara",
+      "en": "he dazzled"
+    },
+    "بت": {
+      "ar": "بَتَّ",
+      "tr": "batta",
+      "en": "he settled, decided"
+    },
+    "بين": {
+      "ar": "بَيْن",
+      "tr": "bayn",
+      "en": "between"
+    },
+    "تاب": {
+      "ar": "تَابَ",
+      "tr": "tāba",
+      "en": "he repented"
+    },
+    "ثاب": {
+      "ar": "ثَابَ",
+      "tr": "thāba",
+      "en": "he returned"
+    },
+    "ثار": {
+      "ar": "ثَارَ",
+      "tr": "thāra",
+      "en": "he revolted"
+    },
+    "ثمر": {
+      "ar": "ثَمَر",
+      "tr": "thamar",
+      "en": "fruit"
+    },
+    "جار": {
+      "ar": "جَار",
+      "tr": "jār",
+      "en": "neighbour"
+    },
+    "جرف": {
+      "ar": "جُرْف",
+      "tr": "jurf",
+      "en": "steep bank"
+    },
+    "جوار": {
+      "ar": "جِوَار",
+      "tr": "jiwār",
+      "en": "proximity"
+    },
+    "حبل": {
+      "ar": "حَبْل",
+      "tr": "ḥabl",
+      "en": "rope"
+    },
+    "حجز": {
+      "ar": "حَجْز",
+      "tr": "ḥajz",
+      "en": "booking, reservation"
+    },
+    "حدة": {
+      "ar": "حِدَّة",
+      "tr": "ḥidda",
+      "en": "sharpness, intensity"
+    },
+    "خبل": {
+      "ar": "خَبَل",
+      "tr": "khabal",
+      "en": "derangement"
+    },
+    "خرف": {
+      "ar": "خَرَف",
+      "tr": "kharaf",
+      "en": "senility"
+    },
+    "خروق": {
+      "ar": "خُرُوق",
+      "tr": "khurūq",
+      "en": "holes, tears"
+    },
+    "خمار": {
+      "ar": "خِمَار",
+      "tr": "khimār",
+      "en": "headscarf"
+    },
+    "ذهن": {
+      "ar": "ذِهْن",
+      "tr": "dhihn",
+      "en": "mind, intellect"
+    },
+    "ربح": {
+      "ar": "رِبْح",
+      "tr": "ribḥ",
+      "en": "profit"
+    },
+    "سقر": {
+      "ar": "سَقَر",
+      "tr": "saqar",
+      "en": "Saqar, a name of the Fire"
+    },
+    "سهر": {
+      "ar": "سَهَر",
+      "tr": "sahar",
+      "en": "wakefulness at night"
+    },
+    "سوف": {
+      "ar": "سَوْفَ",
+      "tr": "sawfa",
+      "en": "will (future particle)"
+    },
+    "شائق": {
+      "ar": "شَائِق",
+      "tr": "shāʾiq",
+      "en": "fascinating"
+    },
+    "شاب": {
+      "ar": "شَابّ",
+      "tr": "shābb",
+      "en": "young man"
+    },
+    "شكر": {
+      "ar": "شُكْر",
+      "tr": "shukr",
+      "en": "thanks"
+    },
+    "شمع": {
+      "ar": "شَمْع",
+      "tr": "shamʿ",
+      "en": "wax, candles"
+    },
+    "عتب": {
+      "ar": "عَتَب",
+      "tr": "ʿatab",
+      "en": "reproach"
+    },
+    "غين": {
+      "ar": "غَيْن",
+      "tr": "ghayn",
+      "en": "the letter ghayn"
+    },
+    "قوت": {
+      "ar": "قُوت",
+      "tr": "qūt",
+      "en": "sustenance"
+    },
+    "كنف": {
+      "ar": "كَنَف",
+      "tr": "kanaf",
+      "en": "shelter, care"
+    },
+    "لبث": {
+      "ar": "لَبِثَ",
+      "tr": "labitha",
+      "en": "he tarried"
+    },
+    "لوث": {
+      "ar": "لَوْث",
+      "tr": "lawth",
+      "en": "taint, pollution"
+    },
+    "ناب": {
+      "ar": "نَاب",
+      "tr": "nāb",
+      "en": "fang, canine tooth"
+    },
+    "نمر": {
+      "ar": "نَمِر",
+      "tr": "namir",
+      "en": "leopard"
+    },
+    "قفار": {
+      "ar": "قِفَار",
+      "tr": "qifār",
+      "en": "wastelands"
+    },
+    "زجل": {
+      "ar": "زَجَل",
+      "tr": "zajal",
+      "en": "sung folk poetry"
+    },
+    "عيب": {
+      "ar": "عَيْب",
+      "tr": "ʿayb",
+      "en": "fault, defect, shame"
+    },
+    "كيف": {
+      "ar": "كَيْفَ",
+      "tr": "kayfa",
+      "en": "how"
+    },
+    "جين": {
+      "ar": "جِين",
+      "tr": "jīn",
+      "en": "gene"
+    },
+    "جمار": {
+      "ar": "جُمَّار",
+      "tr": "jummār",
+      "en": "heart of palm"
+    },
+    "لجم": {
+      "ar": "لَجَمَ",
+      "tr": "lajama",
+      "en": "he bridled, curbed"
+    },
+    "لخم": {
+      "ar": "لُخْم",
+      "tr": "lukhm",
+      "en": "shark"
+    },
+    "غمة": {
+      "ar": "غُمَّة",
+      "tr": "ghumma",
+      "en": "grief, distress"
+    },
+    "شغر": {
+      "ar": "شَغَرَ",
+      "tr": "shaghara",
+      "en": "he was vacant, unguarded"
+    },
+    "عبب": {
+      "ar": "عُبَب",
+      "tr": "ʿubab",
+      "en": "husk tomato"
+    },
+    "لبب": {
+      "ar": "لَبَب",
+      "tr": "labab",
+      "en": "throat, breast"
+    },
+    "خار": {
+      "ar": "خَارَ",
+      "tr": "khāra",
+      "en": "he mooed, lowed"
+    },
+    "كثف": {
+      "ar": "كَثَّفَ",
+      "tr": "kaththafa",
+      "en": "he condensed, thickened"
+    },
+    "شان": {
+      "ar": "شَان",
+      "tr": "shān",
+      "en": "matter, affair (variant of شَأْن)"
+    },
+    "كناب": {
+      "ar": "كِنَاب",
+      "tr": "kināb",
+      "en": "stalk of a palm raceme"
+    },
+    "أخصر": {
+      "ar": "أَخْصَر",
+      "tr": "akhṣar",
+      "en": "more concise"
+    }
+  }
+}
